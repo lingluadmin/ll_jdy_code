@@ -1,0 +1,39 @@
+帮助中心 风险教育*/
+.v4-help-wrap{padding:0 20px 70px 20px;}
+.v4-help-content{border-bottom: 1px solid #f2f2f2;padding: 0 22px;}
+.v4-help-head{position: relative;line-height:60px;font-size: 14px;color: #222;cursor: pointer;}
+.v4-help-head:after{position:absolute; right:8px; top:50%; margin-top: -10px; content:''; width: 6px; height: 6px; border:1px solid #50a9f5; transform:rotate(45deg);-webkit-transform:rotate(45deg); border-width:0 1px 1px 0;-webkit-transition: all 0.5s;-moz-transition: all 0.5s;-o-transition: all 0.5s;transition: all 0.5s;}
+.v4-help-head.active:after{margin-top: -3px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg);}
+.v4-help-body{display: none;margin-bottom: 12px;line-height: 24px;font-size: 14px;color: #666;}
+.v4-help-body p{margin-bottom: 24px;}
+.v4-leftNav ul li a:hover .v4-left-nav-icon, .v4-leftNav ul li.active .v4-left-nav-icon,.v4-leftNav ul li.active .v4-nav-red,.v4-leftNav ul li a:hover .v4-nav-red{color: #fff;}
+/*合作伙伴*/
+.v4-partner-list-wrap{padding:0 20px 10px;}
+.v4-partner-list-wrap li{padding:38px 26px 33px;border-bottom: 1px solid #f2f2f2;font-size: 14px;color: #666;}
+.v4-partner-list-wrap li:last-child{border-bottom: 0;}
+.v4-partner-list-main h3{line-height:26px;font-size: 16px;color: #222;margin-bottom: 10px;}
+.v4-partner-list-main h3 img{width: 26px;margin-right: 14px;vertical-align: top;}
+/*机构信息*/
+.v4-company-wrap{padding:28px 0;background: #fff;}
+.v4-company-wrap .v4-tabel-detail-wrap{padding:0 25px;}
+.v4-company-wrap .v4-tabel-detail td label{width: 126px;}
+.v4-company-wrap .v4-tabel-detail td{padding: 10px 48px 10px 0;}
+.v4-company-wrap .v4-tabel-detail td:nth-child(odd){padding: 10px 0 10px 48px;};
+.v4-company-info{text-align: center;position:relative;}
+.v4-company-info h4{margin-top:42px;text-align: center;line-height: 52px;font-size: 20px;color: #222;}
+.v4-company-info .a-line{margin:0 auto;height: 35px;width: 1px;background: #999;font-size: 0;}
+.v4-company-line{height: 25px;width: 850px;margin:0 auto;border-top:1px solid #999;border-right:1px solid #999;}
+.v4-company-line li{height: 100%;width:120px;float:left;border-left:1px solid #999;}
+.v4-company-text{margin:20px 0 108px 65px;}
+.v4-company-text li{float: left;width: 120px;line-height: 28px;text-align: center;color: #222;}
+.v4-company-text li .v4-iconfont{display: block;font-size: 20px;color: #999;line-height: 1;}
+.v4-company-text li.li2,.v4-company-text li.li5,.v4-company-text li.li8{margin-left:3px;}
+.v4-company-aptitude{padding:38px 20px 40px;}
+.v4-company-aptitude li{float: left;width: 365px;text-align: center;font-size: 16px;color: #222;}
+.v4-company-aptitude li.li1,.v4-company-aptitude li.li3{width: 340px;}
+.v4-company-aptitude li img{width: 186px;display: block;margin:0 auto;}
+.v4-company-aptitude li span{display: inline-block;width: 16px;height: 3px;font-size: 0;background: #50a9f5;}
+.v4-company-aptitude li p{padding:11px 0 16px;line-height: 1;}
+.v4-company-aptitude .v4-btn-primary{width: 120px;height: 30px;line-height: 30px;font-size: 14px;}
+
+

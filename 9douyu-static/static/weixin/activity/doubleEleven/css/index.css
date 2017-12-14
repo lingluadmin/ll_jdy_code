@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com (you@example.org)
+ * @date    2017-10-19 
+ * @version $Id$
+ */
+body{background-color: #290247;font-weight: normal;}
+body,html{-webkit-tap-highlight-color:transparent;}
+.eleven-bg{background:url('/static/weixin/activity/doubleEleven/images/bg.jpg') 0 0 no-repeat; background-size: 100%;}
+.eleven-time{padding-top:7.808rem ; text-shadow:0 0 1px rgba(0,187,255,.5); height: 10.283rem; box-sizing: border-box; text-align: center; font-size: 0.597rem; color:#fff; }
+.eleven-sign{margin: 0 0.32rem 1.493rem; background-color: #fff; border:0.213rem solid #fed376; border-radius:0.427rem; }
+.eleven-sign p{font-size: 0.512rem; margin-bottom: 1.024rem; line-height:0.768rem; color:#e74044; text-align: center; }
+.eleven-sign p strong{font-size: 0.725rem;}
+.eleven-sign-title{position:relative; line-height: 2.475rem; color:#fff4e7; font-size: 0.853rem; top: -1.25rem; width: 11.179rem; height:2.475rem; margin:0 auto -0.5rem;background:url('/static/weixin/activity/doubleEleven/images/sign-title.png') 0 0 no-repeat; background-size: 100%;}
+.eleven-sign-title.signed{background-image: url('/static/weixin/activity/doubleEleven/images/sign-title-signed.png');}
+.eleven-sign-title.signed span{display: inline-block; width: 1.707rem; text-align: center; margin-left: 6.85rem}
+.eleven-sign-list{text-align: center;}
+.eleven-sign-list li{display: inline-block; font-size: 0.427rem; color:#404040; margin:0 0.149rem 0.64rem; padding:2.133rem 0 0; width: 1.728rem;background:url('/static/weixin/activity/doubleEleven/images/sign-bg.png') 0 0 no-repeat; background-size: 1.728rem 1.877rem; }
+.eleven-sign-list li.signed{background-image:url('/static/weixin/activity/doubleEleven/images/sign-bg-signed.png') }
+a.eleven-btn{display: block; width:10.411rem; height:2.091rem; line-height: 1.813rem; text-align: center; color:#713008; font-size: 0.853rem; margin:0.213rem auto 0.427rem;background:url('/static/weixin/activity/doubleEleven/images/btn.png') 0 0 no-repeat; background-size: 100%; }
+a.eleven-btn:active{background-image:url('/static/weixin/activity/doubleEleven/images/btn-active.png'); background-position: center bottom;}
+a.eleven-btn.disable{color:#fff; background-image:url('/static/weixin/activity/doubleEleven/images/btn-disable.png')}
+p.eleven-rule-btn{text-align: center; margin-bottom: 0.75rem;}
+.eleven-rule-btn a,.eleven-rule-btn a:visited{color:#e74044; font-size: 0.597rem;}
+
+.eleven-title{width: 100%; height:2.475rem;background-position:0 0;background-repeat:no-repeat; background-size:100%; }
+.eleven-title.redrain{background-image:url('/static/weixin/activity/doubleEleven/images/redrain-title.png')}
+.eleven-title.project{ margin-bottom: 1.493rem; background-image:url('/static/weixin/activity/doubleEleven/images/project-title.png')}
+.eleven-title.ranking{background-image:url('/static/weixin/activity/doubleEleven/images/ranking-title.png')}
+
+.eleven-intro{font-size: 0.555rem; color:#f5ec64; text-align: center; padding:0.853rem 0  1.109rem;}
+.eleven-ranking-intro{font-size: 0.555rem; color:#fff; text-align: center; padding:0.853rem 0  1.109rem;}
+.eleven-ranking-intro span{ color:#f5ec64;}
+.eleven-redrain-list{overflow: hidden; color:#fffbf3; font-size: 0.384rem; text-align:center;}
+.eleven-redrain-list li{float: left; width: 6.699rem; margin:0 0 1.109rem 0.853rem;}
+.eleven-redrain-box{width: 6.699rem; height:5.632rem;margin-bottom: 0.64rem; background:url('/static/weixin/activity/doubleEleven/images/bonus.png') 0 0 no-repeat; background-size:100%;}
+.eleven-redrain-box p{padding-top: 3.256rem; font-size: 0.768rem; line-height: 1.707rem;}
+.eleven-redrain-box p big{font-size: 1.707rem; margin-right: 0.107rem; margin-right: 0.107rem;}
+.eleven-redrain-receive{width: 6.699rem; font-size: 0.512rem; color:#ffe467; display: none; height:5.632rem;margin-bottom: 0.64rem;background:url('/static/weixin/activity/doubleEleven/images/bonus-open.png') 0 0 no-repeat; background-size:100%;}
+.eleven-redrain-receive p.num{color:#e84848; font-size: 0.768rem; line-height: 1.707rem; padding:0.768rem 0 1.35rem;}
+.eleven-redrain-receive p.num big{font-size: 1.707rem;}
+.received .eleven-redrain-box{display: none;}
+.received .eleven-redrain-receive{display: block;}
+
+.eleven-ranking-list{background-color: #fff; border-radius: 0.213rem; margin:0 0.32rem 1.536rem;}
+.eleven-ranking-list-title{text-align: center; line-height: 2.261rem; color:#e74345; font-size: 0.768rem; position:relative;}
+.eleven-ranking-list-title:after{position: absolute; content:''; left: 0; bottom:0; right: 0; height:1px; background-color: #d4d3d3;-webkit-transform:scaleY(0.5); transform:scaleY(0.5)}
+.eleven-ranking-main{padding:0 0.64rem;}
+.eleven-ranking-main li{padding-left: 1.267rem; width: 100%; box-sizing: border-box; position:relative; line-height: 1.707rem; font-size: 0.512rem; color:#404040;}
+.eleven-ranking-main li:after{position: absolute; content:''; left: 0; bottom:0; right: 0; height:1px; background-color: #e3e2e2;-webkit-transform:scaleY(0.5); transform:scaleY(0.5)}
+.eleven-ranking-main li ins{text-decoration: none; font-style: italic; display:inline-block; width: 2.453rem;}
+.eleven-ranking-main li:nth-child(1),.eleven-ranking-main li:nth-child(2),.eleven-ranking-main li:nth-child(3){color:#e74345;}
+.eleven-ranking-main li:nth-child(4),.eleven-ranking-main li:nth-child(5){color:#435ae7;}
+.eleven-ranking-main li:nth-child(1):before{position:absolute; content:''; width:0.725rem; height:0.917rem; left: 0; top: 0.384rem; background:url('/static/weixin/activity/doubleEleven/images/ranking-1.png') 0 0 no-repeat; background-size:100%; }
+.eleven-ranking-main li:nth-child(2):before{position:absolute; content:''; width:0.725rem; height:0.917rem; left: 0; top: 0.384rem; background:url('/static/weixin/activity/doubleEleven/images/ranking-2.png') 0 0 no-repeat; background-size:100%; }
+.eleven-ranking-main li:nth-child(3):before{position:absolute; content:''; width:0.725rem; height:0.917rem; left: 0; top: 0.384rem; background:url('/static/weixin/activity/doubleEleven/images/ranking-3.png') 0 0 no-repeat; background-size:100%; }
+.eleven-ranking-main li:last-child:afters{display: none;}
+
+
+.page-project{display:block;margin:0 0.32rem 0.981rem;height:4.907rem;border-radius: 0.085rem;background: #fff;overflow: hidden;}
+.page-project>h2{padding-left: 0.811rem; height:1.579rem ;line-height: 1.579rem;background: #fffbf3;font-size: 0.576rem;color: #404040;}
+.page-project>table{width: 100%;font-size: 0.469rem;color: #222;text-align: center;}
+.page-project>table td{font-weight: normal;}
+.page-project>table td.td1{width: 23%}
+.page-project>table td.td1{padding-left: 0.32rem;}
+.page-project>table td.td2{width: 25%;position: relative;}
+.page-project>table td.td2:after,.page-project>table td.td2:before{position: absolute;content:"";top:1.187rem; height: 0.725rem;background: #929292;width:1px;font-size: 0; transform:scaleX(0.5)}
+.page-project>table td.td2:before{left: 2px;}
+.page-project>table td.td2:after{right: 3px;}
+.page-project>table td.td3{width: 23%}
+.page-project>table td p{height:0.939rem;font-size: 0.597rem; color: #fe4600;margin-top: 0.5rem;line-height:1.28rem;}
+.page-project>table td big{font-size: 0.939rem;}
+.page-project>table td span{display: block;margin-top:0.299rem;}
+.page-project-btn{display:block;margin:0.833rem auto 0; width:3.264rem;height: 1.088rem;line-height:1.088rem; text-align: center;color: #fff;font-size: 0.512rem;border-radius: 0.085rem;background: #e74044;border:0;}
+.page-project-btn.disable{background: #909090;}
+
+
+.eleven-rule{background-color: #340955; margin-top:1.92rem; color:#b6afbf; font-size: 0.469rem; padding:0.725rem 0;}
+.eleven-rule h2{text-align: center; font-size: 0.555rem; margin-bottom: 0.853rem;}
+.eleven-rule p{width: 14.805rem; margin:0 auto;}
+.eleven-rule p.yellow{color:#b6ad2f;}
+
+
+.page-layer{display:none ;}
+.page-mask{position: fixed;left:0;right:0;top:0;bottom:0;z-index:1;background: rgba(0,0,0,.8);}
+.page-pop-close{position: absolute;right:0.299rem;top:0.512rem;z-index:10;width:0.427rem; height:0.427rem;font-size: 0; background:  url('../images/pop-close1.png') center center no-repeat;background-size: 100%;}
+.page-pop-close2{position:absolute;right:0.896rem;top:0.384rem; z-index: 10; width: 0.427rem;height: 0.427rem;background: url('../images/pop-close2.png') center center no-repeat;background-size: 100%;font-size: 0;}
+.page-pop{position: fixed;left:50%;top:50%;z-index:3;transform: translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);text-align: center;}
+.page-pop.page-pop-lucky{width: 12.117rem;height: 12.715rem;background: url('../images/page-pop-lucky-money.png') center top no-repeat; background-size: cover;}
+.page-pop.page-pop-lucky .text1{font-size: 0.853rem;color: #fff;line-height: 1;padding-top:5.973rem;}
+.page-pop.page-pop-lucky .text2{color: #fde600;line-height: 1;padding-top: 1.365rem;font-size: 1.28rem;}
+.page-pop.page-pop-lucky .text2 big{font-size: 2.176rem;font-family: "PingFang SC";font-weight: bold;}
+.page-pop.page-pop-coupon{width: 10.709rem;text-align: center; height:11.541rem;background:url('/static/weixin/activity/doubleEleven/images/pop-bonus.png') center top no-repeat; background-size: cover;color: #fff267;}
+.page-pop.page-pop-coupon .info{}
+.page-pop.page-pop-coupon .text1{font-size: 1.067rem;color: #fde600;line-height: 1;}
+.page-pop.page-pop-coupon .text2{padding:1rem 0 2rem;font-size: 1.237rem;line-height: 2.987rem; color:#e84848;}
+.page-pop.page-pop-coupon .text2 big{font-size:2.987rem;font-family: "PingFang SC";font-weight: bold; margin-right: 0.213rem}
+.page-pop.page-pop-coupon .text3{padding-top: 0.853rem;font-size: 0.597rem; line-height:0.981rem; }
+.page-pop.page-pop-coupon .page-pop-close{right: 0;}
+.page-pop.page-pop-login{width: 13.227rem;height: 8.107rem;background: #fff;border-right: 0.085rem;}
+.page-pop.page-pop-login .text1{font-size: 0.811rem;color: #f55832; padding:1.237rem;line-height: 1;}
+.page-pop.page-pop-login .text2{line-height: 1.067rem;font-size: 0.64rem;color: #666;}
+.pop-btn-confrim{position: absolute;bottom: 0;left:0;right:0;height:1.92rem;line-height: 1.92rem;text-align: center;font-size: 0.725rem;color: #4298fe;border-top: 1px solid #eee;}
+.page-pop-login .page-pop-close2{right:0.512rem;}
+
+.pop-btn{display: block; width: 8.256rem; margin:1.792rem auto 0; height:1.664rem; text-align: center; line-height: 1.45rem; font-size: 0.683rem; color:#713008;background:url('/static/weixin/activity/doubleEleven/images/pop-btn.png') 0 0 no-repeat; background-size:100%;}
+.pop-btn-1{display: block; width: 4.651rem;display:inline-block; height:1.664rem; text-align: center; line-height: 1.45rem; font-size: 0.683rem; color:#713008;background:url('/static/weixin/activity/doubleEleven/images/pop-btn-1.png') 0 0 no-repeat; background-size:100%; float:left;}
+.pop-icon{position: absolute; width: 1.237rem; height:1.472rem; top:6.187rem; right: -0.597rem; background:url('/static/weixin/activity/doubleEleven/images/pop-icon.png') 0 0 no-repeat; background-size:100%;}
+
+.page-pop-fail,.page-pop-success,.page-pop-share{width: 10.667rem; height:11.008rem; padding-top: 4.25rem; box-sizing: border-box; background-color: #fff; border-radius: 0.213rem;}
+.page-pop-fail .text2{font-size: 0.64rem; line-height: 0.896rem;}
+.pop-fail-title{position:absolute; left: -1.216rem; top: -1.451rem; width: 13.056rem; height:4.245rem;background:url('/static/weixin/activity/doubleEleven/images/pop-fail.png') 0 0 no-repeat; background-size:100%;}
+.pop-success-title{position:absolute; left: -1.216rem; top: -1.451rem; width: 13.056rem; height:4.245rem;background:url('/static/weixin/activity/doubleEleven/images/pop-success.png') 0 0 no-repeat; background-size:100%;}
+.pop-share-title{position:absolute; left: -1.216rem; top: -1.451rem; width: 13.056rem; height:4.245rem;background:url('/static/weixin/activity/doubleEleven/images/pop-share-title.png') 0 0 no-repeat; background-size:100%;}
+
+.page-pop-success .text1{font-size: 0.811rem; margin-bottom: 0.95rem;}
+.page-pop-success .text2{font-size: 0.853rem; color:#e0393b; margin-bottom: 1.15rem;}
+.page-pop-success .text2 big{font-size: 2.133rem;}
+.page-pop-success .text3{font-size:0.597rem; color:#666; }
+.page-pop-success .text4{font-size:0.853rem; color:#e0393b; margin-bottom: 0.725rem; }
+.page-pop-success .text5{font-size:0.811rem; }
+.page-pop-success .pop-btn{margin-top: 1.5rem;}
+.page-pop-success,.page-pop-share{padding-top: 3.5rem;}
+
+.page-pop-share .text2{font-size: 0.853rem; color:#e0393b; margin-bottom: 0.55rem;}
+.page-pop-share .text2 big{font-size: 2.133rem;}
+.page-pop-share .text3{font-size:0.597rem; color:#666; line-height: 1rem; }
+.page-pop-share .text1{font-size:0.853rem; color:#e0393b; margin-bottom: 0.5rem; }
+
+.eleven-share-img{width: 7.381rem; height:6.805rem; z-index: 5; position:fixed; top: 1.579rem; right: 1.579rem; background:url('/static/weixin/activity/doubleEleven/images/pop-share-img.png') 0 0 no-repeat; background-size:100%;}
+
+.page-pop-rule{width: 13.44rem; overflow: hidden; height:11.307rem; box-sizing: border-box; background-color: #fff; border-radius: 0.213rem;}
+.pop-rule-title{line-height:2.347rem; text-align: center; margin-bottom: 0.853rem; color:#fff; background-color: #e33e3e; font-size: 0.683rem; border-bottom: 0.128rem solid #fadada; }
+.page-pop-rule p{padding:0 1.237rem; font-size: 0.555rem; color:#404040; line-height: 1.024rem; text-align: left;}
+.page-pop-rule .page-pop-close{right: 0.512rem;}
+
+.page-box{padding:0.8rem 0.64rem 0rem; overflow:hidden; }
+.page-box a:last-child{ float:right;}
+.pop-tips{font-size: 0.427rem; padding-top:0.555rem; color:#666;}

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors bi.chunfeng@9douyu.com
+ * @date    2017-08-14
+ * @version Tanabata festival
+ */
+body{background:#6335a7;}
+.page-banner{width: 100%; height:462px;background: url('/static/activity/tanabata/images/bg.jpg') top center no-repeat;}
+.page-banner p{text-align: center; padding-top: 390px; color: #7934b9; font-size: 18px;}
+.page-wrap{width:1000px; margin: 0 auto;}
+.page-title{margin:50px auto;width:303px;height: 87px;font-size:0;background: url('/static/activity/tanabata/images/title-bg.png') left bottom no-repeat;}
+.page-title.large{margin:0 auto 0;background: url('/static/activity/tanabata/images/title-bg.png') left top no-repeat;}
+.mother-info{text-align: center; color: #dcb9ff;font-size: 16px; padding:10px 0 26px;}
+.mother-coupon{width:100%;height: 262px; margin-bottom: 70px;text-align: center;}
+.mother-coupon li{position:relative;float: left; width:189px; height:247px; color: #fff;font-size: 20px; text-align: center;cursor: pointer;}
+
+.mother-300{margin:0 11px 30px 0;background: url('/static/activity/tanabata/images/mother-icon.png') right 0 no-repeat;}
+.mother-300:hover,.mother-100:hover{margin:0 0 30px 0;position:relative;left:-5px;top:-8px;width: 200px;height: 262px;background: url('/static/activity/tanabata/images/mother-icon1.png') right 0 no-repeat;}
+.mother-coupon-txt{padding:94px 0 17px; line-height:70px;}
+.mother-300 big{font-size: 70px;}
+.mother-coupon small{font-size: 16px;}
+.mother-300:hover .mother-coupon-txt,.mother-100:hover .mother-coupon-txt2{line-height: 80px;}
+
+.mother-100,.mother-200{margin:0 11px 30px 0;background: url('/static/activity/tanabata/images/mother-icon.png') left 0 no-repeat;}
+.mother-coupon-txt2{padding:94px 0 17px; line-height: 70px;}
+.mother-100 big,.mother-200 big{font-size: 70px;}
+.mother-100 .page-li5{margin:0 0 30px 0 !important;}
+.mother-100:hover{background: url('/static/activity/tanabata/images/mother-icon1.png') left 0 no-repeat;}
+.mother-pro{padding:0 26px 0 26px;margin:0 auto 100px; position: relative; background: url('/static/activity/tanabata/images/project-bg-repeat.png') left 0 repeat-y;}
+.mother-pro:before,.mother-pro:after{position:absolute; content: ''; left: 0; right:0; background-image:url('/static/activity/tanabata/images/project-bg.png'); background-repeat: no-repeat; }
+.mother-pro:before{top: -60px; height:60px; background-position: 0 top;}
+.mother-pro:after{bottom: -60px; height:60px; background-position:0 bottom;}
+.mother-pro table{width: 100%; /*margin-bottom: 20px; box-shadow: 0 2px 2px rgba(0,0,0,.2);*/ background-color: #4c1f8e;border-bottom:1px dotted #8c55dc;}
+.mother-pro a:first-child table{position: relative;top:-20px;}
+.mother-pro a:last-of-type table{border-bottom: 0;padding-bottom: 0;}
+.mother-pro a:last-of-type table td{padding-bottom: 0;}
+.mother-pro table th{padding-left: 30px; font-size: 20px; color: #fff; height:60px;}
+.mother-pro table th span{margin-right: 20px;}
+.mother-pro table td{width: 20%;text-align: center;font-size: 20px; padding-bottom: 20px; color: #fff; line-height: 34px;}
+.mother-pro table td small{font-size: 16px; color: #fff;}
+.mother-pro table td big{font-size: 48px;}
+.mother-red{color: #ff537b;height: 34px;position: relative;top:-5px;}
+.mother-pro a{display: block;}
+.mother-btn,a.mother-btn,.mother-btn:visited{display: inline-block; width:151px; height:46px; color: #fff; line-height: 46px; text-align: center;background-color: #e3b763;border-radius: 5px;background-image:-webkit-linear-gradient(to top, #a752ff, #9147ff); background-image:linear-gradient(to top,#a752ff,#9147ff);box-shadow: inset 0px 0px 8px rgba(255,134,211,0.1);}
+.mother-pro table:hover .mother-btn,a.mother-btn:hover,a.mother-btn:active{background-color: #e3b763;background-image:-webkit-linear-gradient(to top, #952ffe, #822dff); background-image:linear-gradient(to top,#952ffe,#822dff);box-shadow: inset 0px 0px 8px rgba(255,134,211,0.14);}
+.mother-pro table:hover .mother-btn.disable,.mother-btn.disable,a.mother-btn.disable,a.mother-btn.disable:hover{background-color: #c2c2c2;background-image:none;box-shadow: none; }
+.mother-day{margin-bottom: 90px;}
+.mother-day p{text-align: center; font-size: 16px; color: #dcb9ff;}
+.mother-day .page-title{margin:50px auto 20px;}
+.mother-rule-bg{position:relative;width:100%; background-color: #8753d4; line-height: 30px; padding:40px 0 40px; margin-bottom: -80px; font-size: 16px; color: #fff;}
+.mother-rule-bg h4{font-size: 20px;}
+
+.mother-rule ins{text-decoration: none;margin:0 5px 0 15px;}
+.mother-rule p .yellow{font-weight: normal; color: #ff0;}
+
+.mother-day-prize{float:left;position:relative;margin-left:25px;width:384px;text-align: center;font-size: 18px; color: #fff;vertical-align: top;}
+.mother-day-prize:after{position: absolute;content: "";right:0;top:0;height: 100%;border-left:1px solid #8753d4;}
+.mother-day-prize .name{margin-top: 15px;}
+.mother-prize-title{width:170px;margin:0 auto;height:34px; line-height:34px;margin:-20px auto 20px;color: #2b0564;font-size: 18px;text-align: center;background: url('/static/activity/tanabata/images/sub-title-bg.png') 0 0 no-repeat;}
+.mother-prize-bg{}
+.mother-day-wrap{position: relative;}
+/*.mother-prize-bg img{margin-top: 97px;}*/
+.mother-list{float:right;width:476px;text-align: left;line-height:36px; font-size: 16px; color: #fff;vertical-align: middle;}
+.mother-list-scroll{height:133px;overflow: auto;overflow-x:hidden;}
+.mother-list span{display:inline-block;margin-right: 10px;}
+.page-layer{display:none;}
+.page-pop{width:333px; height:215px; line-height: 38px; padding:116px 0 0 30px;position:fixed; font-size: 20px; text-align: center; color: #fff; z-index: 999999; left: 50%; top: 50%; margin:-100px 0 0 -150px; background: url('/static/activity/tanabata/images/mother-pop.png') 0 0 no-repeat;}
+.page-pop-close{width:14px; height:14px;font-size: 0;line-height: 0; cursor: pointer; position:absolute;top:102px; right:40px; background: url('/static/activity/tanabata/images/mother-close.png') 0 0 no-repeat;}
+.page-pop-text{margin-top: 10px;}
+.page-pop-text1{line-height: 42px;margin-top: 24px;}
+.page-pop-text2{margin-top: 50px;}
+.page-mask{position: fixed;left:0;top:0;z-index:1;width:100%;height: 100%;background: rgba(0,0,0,0.7);}
+.page-pop-text-desc{font-size:16px;color:#dcb9ff}
+.page-pop .mother-btn,.page-pop a.mother-btn,.page-pop .mother-btn:visited{margin:10px;display: inline-block; width:180px; height:46px; line-height: 46px;color: #fff;  text-align: center;background-color: #952ffe;border-radius: 5px;background-image:-webkit-linear-gradient(to top, #dc52ff, #8526f1); background-image:linear-gradient(to top,#dc52ff,#8526f1);box-shadow: inset 0px 0px 8px rgba(255,255,255,0.21),2px 2px 5px rgba(60,19,164,0.18);}
+.page-pop .mother-btn:hover{background-image:-webkit-linear-gradient(to top, #c632eb, #7317da); background-image:linear-gradient(to top,#c632eb,#7317da);}
+
+
+/*定位的云朵*/
+.mother-cloud1{position:absolute;left:-40px;top:645px;width: 240px;height: 116px;background: url('/static/activity/tanabata/images/cloud.png') 0 0 no-repeat;}
+.mother-cloud2{position:absolute;right:0;top:-236px;width:234px;height:133px;background: url('/static/activity/tanabata/images/cloud.png') 0 -117px no-repeat;}
+.mother-cloud3{position:absolute;left:-96px;top:104%;width:142px;height:69px;background: url('/static/activity/tanabata/images/cloud.png') 0 -250px no-repeat;}
+
+
+
+

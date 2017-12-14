@@ -1,0 +1,9 @@
+/*btn*/
+.v4-btn,.v4-btn:link,.v4-btn:visited{display: block;margin-left:auto;margin-right:auto;width:142px;height: 30px;line-height: 30px;background: #fff;text-align: center;color: #50a9f5;font-size: 14px;border-radius: 15px;-webkit-border-radius:15px;vertical-align: middle;border:1px solid #5caff6;}
+.v4-btn:hover,.v4-btn:active,.v4-btn.v4-btn-primary{background: #50a9f5;border:1px solid #50a9f5;color: #fff;}
+.v4-btn.v4-btn-disabled,.v4-btn.v4-btn-disabled:hover{background: #999;color: #fff;border:1px solid #999;color:#fff;}
+.v4-btn.v4-btn-more,.v4-btn.v4-btn-more:hover{border: 1px solid #fff;width:110px;height: 30px;line-height: 30px;background:transparent;color: #fff;font-size: 14px;}
+.v4-btn.v4-btn-min{width: 120px;}
+.v4-btn.v4-btn-primary{width:227px;height: 44px;line-height: 44px;font-size: 24px;border-radius: 25px;-webkit-border-radius:25px;}
+.v4-btn.v4-btn-red,.v4-btn.v4-btn-red:hover{background: #f95e5a;border:1px solid #f95e5a;}
+.v4-btn-text{font-size: 16px;color: #50a9f5 !important;background: none;border: 0;vertical-align: middle;}

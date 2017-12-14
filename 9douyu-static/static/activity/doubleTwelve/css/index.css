@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+body{background-color: #f45331;}
+.twe-banner{width: 100%; height: 505px; overflow: hidden; background: url('/static/activity/doubleTwelve/images/banner.png') top center no-repeat; background-size: cover;}
+.twe-banner p{ color: #ffffff; font-size: 22px; text-align: center; padding-top: 405px;}
+.twe-bg{width: 100%; float: left;  background: url('/static/activity/doubleTwelve/images/bg.jpg') 0 0 repeat-x;}
+.twe-wrap{ width:1060px; margin:-50px auto 0;}
+.twe-title,.twe-title1,.twe-title2{ width: 1060px; height: 68px; background: url('/static/activity/doubleTwelve/images/title.png') 0 0 no-repeat; background-size: cover;}
+.twe-box{ margin-bottom: 40px;}
+.twe-box-1{ background: #fff; border-radius: 0 0 10px 10px; overflow: hidden;}
+.twe-1{ font-size:18px; color: #666666; text-align: center; padding: 34px 0 28px 0; }
+.twe-bouns dt{ display: block; width: 266px; height: 225px; background: url('/static/activity/doubleTwelve/images/img1.png') 0 0 no-repeat; background-size:100%;}
+.twe-bouns dt p{ color: #fff; font-size: 38px; text-align: center; padding-top: 147px;}
+.twe-bouns dt p span{ font-size: 68px;}
+.twe-bouns { float: left; margin-left:68px; margin-bottom: 48px;}
+.twe-bouns dd{ text-align: center; color: #f45331; font-size: 20px; padding-top:20px;}
+.twe-bouns.received dt{display: block; width: 266px; height: 225px; background: url('/static/activity/doubleTwelve/images/img.png') 0 0 no-repeat; background-size:100%;}
+.twe-bouns.received dt p{ color:#ea4848; padding-top: 58px; }
+.twe-bouns .receive-bonus { cursor:pointer; }
+.twe-title1{background: url('/static/activity/doubleTwelve/images/title2.png') 0 0 no-repeat; background-size: cover;}
+.twe-title2{background: url('/static/activity/doubleTwelve/images/title1.png') 0 0 no-repeat; background-size: cover;}
+.money-box{padding: 70px 30px 0;}
+.money-return{ text-align: center; position:relative; padding:0 0 52px 294px; }
+.money-return:before{ content: ''; position: absolute; width: 234px; height:83px; left: 18px; top: 0px;background: url('/static/activity/doubleTwelve/images/hand.png') 0 0 no-repeat; background-size: 100%;}
+.money-return:after{ content: ''; position: absolute; width: 100%; left: 0px; bottom: 0px;height: 1px; background-color: #e3e3e3; -webkit-transform: scaleY(0.5); transform: scaleY(0.5);}
+.money-return p{color: #f45331; font-size:18px; text-align: justify; line-height: 38px; }
+.money-return-case{padding: 50px 0 50px 178px; position:relative;}
+.money-return-case:after{content:'';position:absolute; width: 123px; height:149px; left: 0; top: 25px; background:url('/static/activity/doubleTwelve/images/img2.png') 0 0 no-repeat; background-size: 100%;}
+.money-return-case p{font-size:20px; color:#222; line-height:24px; margin-bottom: 20px;}
+.money-return-case p span{color:#f55e10; font-size: 30px;}
+.money-return-case p.end{font-size: 24px; line-height: 44px;}
+.money-return-case p.end big{color:#f55e10; font-size: 44px;}
+.page-wrap{ overflow: hidden;}
+
+.page-project-wrap{margin:47px 38px 0px; padding-bottom: 90px; }
+.page-project{height: 180px;margin-bottom:24px;background-color: #fff;border-radius: 6px;overflow: hidden;font-family: "PingFang SC";box-sizing: border-box;border-bottom: 1px solid #e3e3e3;}
+.page-project .title{line-height:25px;font-size: 18px;color: #252525;text-indent: 40px; margin-top: 8px;}
+.page-project table{width: 100%;text-align: center;}
+.page-project table p{margin-top:30px;color: #222;font-size: 22px;height:44px;line-height:66px;}
+.page-project table p>big{font-size: 44px;line-height: 44px;}
+.page-project table span{display: block;margin-top:16px;font-size: 14px;color: #646464;}
+.page-project table td.td1{width: 214px;}
+.page-project table td.td2,.page-project table td.td3{width: 271px;}
+.page-project table td.td2{position: relative;}
+.page-project table td.td2:before{left:0;}
+.page-project table td.td2:after{right:0;}
+.page-project table td.td3{ width: 315px;}
+.page-btn-project,.page-btn-project:hover{display: inline-block;margin-top:25px;width: 153px;height: 51px;line-height:51px;background-color: #f45331;border-radius: 4px;color: #fff;text-align: center;font-size: 24px;}
+.page-btn-project:hover{background: #ff6a3c;}
+.page-btn-project.disable{background-color: #909090;}
+.page-project table p.red{ color: #e94044;}
+.twe-box-2{ padding-top: 20px;}
+.page-project:last-child{ border-bottom: 0; margin-bottom: 0;}
+
+.twe-rule{ color: #fff; font-size: 16px; padding-left: 15px; padding-bottom: 62px; }
+.twe-rule h4{ padding-bottom: 10px;}
+.twe-rule p{ line-height: 30px;}
+
+/*popv*/
+.page-layer{ display: none}
+.page-mask{position: fixed;left:0;top:0;z-index: 3;width: 100%;height: 100%;background: rgba(0,0,0,.85);}
+.page-pop,.page-pop1{position: fixed;left:50%;top:50%;z-index:3;width: 350px;margin-left:-175px;margin-top:-167px;height: 335px;background-color: #fff;border-radius: 10px;}
+.page-pop-inner{position: relative;}
+.page-pop-pos{position:absolute;width:350px;height:59px;background: url('/static/activity/doubleTwelve/images/img3.png') center top no-repeat; left: 50%; margin-left: -175px; text-align: center; line-height: 59px; font-size: 32px; color: #fff;}
+.page-pop-close{display: block;position: absolute;width:14px;height: 14px;background: url('/static/activity/doubleTwelve/images/close.png') center top no-repeat;background-size: cover;font-size: 0; top: 10px; right: 9px;}
+.page-pop-text{font-size: 18px;color: #fd7d38;text-align: center; line-height: 25px;}
+.winter-btn1{ display: block; width:291px; height: 59px;background: url('/static/activity/doubleTwelve/images/btn.png') top center no-repeat; margin: 0 auto; color: #fff !important; font-size: 22px; text-align: center; line-height: 53px; margin-top: 40px; background-size: contain; }
+.twe-img1{ display: block; margin:0 auto 26px; padding-top: 110px;}
+.page-bouns{width: 192px; height: 162px; background: url('/static/activity/doubleTwelve/images/img.png') 0 0 no-repeat; background-size:100%; text-align: center; margin:23px auto -13px;}
+.page-bouns p span{ font-size: 49px; }
+.page-bouns p{ color: #ea4848; padding-top: 30px;}
+.page-pop-inner h5{ padding-bottom: 28px; color: #fff; text-align: center;}
+.page-pop-inner h5 span{ color: #fff100; font-size: 18px;}
+.page-pop1{ height:417px; margin-top:-206px;}
+.page-pop-text1{ text-align: center; font-size: 16px; color: #fd7d38; padding-top:76px; line-height: 28px;}
+
+
+
+

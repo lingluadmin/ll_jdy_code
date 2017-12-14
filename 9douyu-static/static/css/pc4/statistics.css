@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* 平台数据 */
+.data-box{width: 100%; overflow:hidden; margin-bottom: -80px; padding: 200px 0 50px; background:url('/static/images/pc4/statistics/data-banner.jpg') top center no-repeat #f0f0f0;}
+.data-main{padding:25px 50px 45px; margin-bottom: 20px; background-color: #fff; overflow:hidden;}
+.data-main li img{padding-bottom: 10px;}
+.data-main li{float: left; width:25%; text-align: center; line-height: 30px;}
+.data-main li span{font-size: 30px; color: #32a2fd;}
+.data-inner{ margin-bottom: 20px; background-color: #fff; overflow:hidden;}
+.data-title{height:48px; line-height: 48px; padding-left: 25px; border-bottom: 1px solid #ecedf1; background-color: #f9f9f9; color: #000; font-size: 20px;}
+.data-inner-main{margin-right: -2px;}
+.data-inner-main.data-w3{margin-right: -5px;}
+.data-inner-main li{float: left; padding:35px 0 35px 45px; line-height: 30px; width:229px; border-right: 1px solid #ecedf1;}
+.data-inner-main li span{font-size: 30px; color: #000;}
+.data-inner-main.data-w3 li{width:321px;}
+.dataArea{width: 620px;height: 480px; float: left; margin:0 90px 0 50px;}
+.dataday{width:380px; height: 380px; float: left; margin:0 155px 0 80px;}
+.data-map{ padding:35px 25px; overflow:hidden; background-color: #fff; margin-bottom: 20px; }
+.data-title2{padding-left: 15px; margin-bottom: 10px; position:relative; color: #000; font-size: 20px; line-height: 20px;}
+.data-title2:after{position:absolute; content:''; width:6px; height:23px; background-color: #000; left: 0; top: 0;}
+.dataday-mark{float: left; line-height: 40px;padding-top: 90px;}
+.dataday-mark p,.dataArea-mark p{position:relative;}
+.dataday-mark big{font-size: 18px; color: #000;}
+.dataday-mark em{color: #000;}
+.dataday-mark span{display: inline-block; width:145px;}
+.dataday-mark-color{padding-left: 28px;}
+.dataday-mark-color:before{position:absolute; content:''; width:16px; height:14px; left: 0; top: 14px;}
+.dataday-mark-color1:before{background-color: #438aff;}
+.dataday-mark-color2:before{background-color: #00c582;}
+.dataday-mark-color3:before{background-color: #ff7148;}
+.dataday-mark-color4:before{background-color: #ffb300;}
+.dataday-mark-color5:before{background-color: #cadcff;}
+.dataArea-mark{padding-top: 160px;line-height: 40px; float: left; }
+.dataday-mark-color6:before{background-color: #2d91ff;}
+.dataday-mark-color7:before{background-color: #4ca1ff;}
+.dataday-mark-color8:before{background-color: #6cb2ff;}
+.dataday-mark-color9:before{background-color: #8cc3ff;}
+.dataday-mark-color10:before{background-color: #abd3ff;}
+.dataday-mark-color11:before{background-color: #cae3ff;}
+.data-refresh{text-align: center; margin-top: 30px;}

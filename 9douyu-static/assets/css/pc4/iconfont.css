@@ -1,0 +1,40 @@
+/*iconfont*/
+
+@font-face {
+  font-family: 'v4-iconfont';  /* project id 374926 */
+  src: url('/static/font/pc4/iconfont.eot');
+  src: url('/static/font/pc4/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('/static/font/pc4/iconfont.woff') format('woff'),
+  url('/static/font/pc4/iconfont.ttf') format('truetype'),
+  url('/static/font/pc4/iconfont.svg#iconfont') format('svg');
+}                
+                   
+                                                      
+.v4-iconfont{
+    font-family:"v4-iconfont" !important;
+    /*font-size:16px;*/font-style:normal;
+    -webkit-font-smoothing: antialiased;  /*字体图标在safair或chrome浏览器下被加粗 */
+    -webkit-text-stroke-width: 0.2px;  /*字体图标在pc端的chrome浏览器下出现严重的锯齿；*/
+    -moz-osx-font-smoothing: grayscale;
+  _display: block;  /*字体图标在IE7浏览器显示中图标右侧出现小方框现象；*/
+}  
+
+.v4-icon50{font-size:16px; color: #919191;vertical-align: top; padding-right:10px;}
+.v4-icon52{font-size:16px; color: #919191;vertical-align: top; padding-right:10px;}
+.v4-icon51{font-size:70px; color: #c9c9c9;}
+.v4-icon53{font-size:30px; color: #747474;}
+.v4-icon54{font-size:30px; color: #747474;}
+.v4-icon-20 {font-size:86px;color: #dbdbdb;}
+.v4-icon-wechart,.v4-icon-weibocode {
+    font-size: 18px;
+    color: #7c7c7c;
+    vertical-align: top;
+    padding-left: 5px;
+    cursor: pointer;
+    margin-right: 7px;
+}
+.v4-icon-wechart:hover{color: #39d479;}
+.v4-icon-weibocode:hover{color: #da251c;}
+.v4-icon-iphone{font-size: 13px;color: #7c7c7c; padding-right: 4px;}
+.v4-icon-iphone:hover{color: #00bafb;}
+.v4-left-nav-icon{font-size: 16px;padding-right: 10px;color: #858585;}

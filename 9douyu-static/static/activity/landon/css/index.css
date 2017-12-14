@@ -1,0 +1,132 @@
+@charset "utf-8";
+body{background: #18233d;}
+
+.landon-header{ background: #fff; height: 70px; width: 100%; background: #fff; line-height: 70px;font-size: 16px;color: #999;}
+.landon-reg{ width: 1100px; overflow: hidden; margin: 0 auto; }
+.landon-header-logo{ float: left; font-size: 14px; }
+.landon-header-logo a{display:inline-block; height:34px;width:123px;background: url('../images/v4-logo.png') no-repeat 0 0;background-size: cover;vertical-align: middle;}
+.landon-header-logo .landon-header-subhead{padding-left:18px;margin-left:18px;display: inline-block;height:30px;line-height:1;vertical-align: middle;border-left:1px solid #dedede;font-size: 14px;color: #999;}
+.landon-header-logo .landon-header-subhead p{font-size: 12px;margin-top: 5px;}
+.landon-user-info{float: right;}
+.landon-user-info .customer{padding-right: 21px;}
+.landon-user-info .login{color: #048af9;}
+.landon-banner{width: 100%;height: 570px; margin:0 auto 52px;background: url('../images/landon-banner.jpg') center top no-repeat;}
+.landon-box{position:relative;min-height:100px;width:960px;margin:0 auto 60px;background: #fff;border-radius: 4px;padding:40px 70px 55px;}
+.landon-box .title{position: absolute;top:-13px;left:50%;margin-left:-166.5px;width:333px;height: 56px;line-height:56px;background: url('../images/landon-title.png') center top no-repeat;color: #fff;font-size:28px;text-align: center; }
+.landon-66{margin:0 auto 66px;}
+.landon-flow{width: 910px;height: 92px;margin:64px auto 20px;background: url('../images/landon-flow.png') center top no-repeat;background-size: cover;}
+.landon-flow-text li{float: left;margin-left:0px;width:100px;text-align: center;font-size: 16px;color: #000;line-height: 20px;margin-left: 20px;}
+.landon-flow-text li.li2{margin-left: 108px;}
+.landon-flow-text li.li3,.landon-flow-text li.li4,.landon-flow-text li.li5{margin-left: 104px;}
+.landon-flow-text span{color: #ff6300;}
+.landon-lucky{width: 960px;height: 457px;margin:90px auto 63px;background: url('../images/landon-lucky.png') center top no-repeat;}
+/*btn*/
+.landon-btn-oth,.landon-btn{display: block;margin:0 auto;width: 360px;height: 64px;line-height: 64px;text-align: center;color: #fff !important;font-size: 28px;border-radius: 35px;background-image:-webkit-linear-gradient(to top, #ff5400, #ff9600); background-image:linear-gradient(to top,#ff5400,#ff9600);border:0;}
+.landon-btn-oth.disable,.landon-btn.disable{background-image:none; background-image:none;background-color: #c2c0c0;cursor:not-allowed;}
+.landon-btn:hover{color: #fff !important;background-image:-webkit-linear-gradient(to top, #ff3600, #ff6c00); background-image:linear-gradient(to top,#ff3600,#ff6c00);}
+.landon-btn.landon-btn-invest{position:relative;width: 210px;height: 40px;line-height: 40px;font-size: 20px;border-radius:10px;margin-left: 15px;}
+.landon-btn.landon-btn-invest:hover>img{display: block;}
+.landon-project table{margin-top: 66px;}
+.landon-project table td{text-align: center;}
+.landon-project table td p{font-size: 40px;color: #000;line-height: 1;}
+.landon-project table td p.text-color-red,.landon-project table td p.text-color-red em{color:#f4403b !important;}
+.landon-project table td p>em{font-size: 20px;color: #333;}
+.landon-project table td span{display: block;font-size: 16px;color: #666;line-height: 1;margin-top: 15px;}
+.landon-project table td.td1{width: 190px}
+.landon-project table td.td1>p{text-align: left;}
+.landon-project table td.td1>span{text-align: left;padding-left: 36px;}
+.landon-project table td.td2{width: 170px;border-left:1px solid #ddd;border-right:1px solid #ddd;}
+.landon-project table td.td3{width: 196px}
+.landon-project table td.td4{width: 176px;border-left:1px solid #ddd;}
+
+.landon-advantage{background: #fff;padding-bottom: 120px;}
+.landon-advantage .inner{width: 1100px;margin:0 auto;padding:40px 0 64px;}
+.landon-advantage-title{text-align: center;font-size: 28px;color: #000;margin:8px 0 68px;font-weight: bold;}
+.landon-advantage-img{width: 793px;height: 71.5px;margin:0 auto;background: url('../images/landon-advantage.png') center top no-repeat;background-size: cover;}
+.landon-advantage-text li{float: left;width:280px;padding:0 43px;}
+.landon-advantage-text li.li1>h5{text-indent: 13px;}
+.landon-advantage-text li.li2{width:280px;padding:0 43px;}
+.landon-advantage-text li>h5{margin-top:18px;line-height:54px;text-align: center;font-size: 20px;color: #000;font-weight: bold;}
+.landon-advantage-text li>p{font-size: 14px;line-height: 24px;color: #333;}
+
+.landon-app-img1{position: absolute;top:-213px;right:-17px;display: none;}
+
+
+.landon-fixed-bottom{position: fixed;left:0;bottom:0;height: 114px;width: 100%;background:rgba(0,0,0,0.8)}
+.landon-fixed-bottom .landon-btn{margin:25px auto;}
+
+.landon-qcode-app{float:right;width: 250px;height: 426px;margin:59px 95px 0 0;background: url('../images/landon-qcode-img2.png') center top no-repeat;background-size: cover;font-size: 16px;color: #fff;text-align: center;text-shadow: 1px 0 2px rgba(69,14,6,.38);line-height: 24px;}
+.landon-qcode-app h5{font-size: 12px;line-height: 20px;margin-top: 72px;}
+.landon-qcode-app h5 span{color: #ffb03f;}
+.landon-qcode-app p{margin-top: 182px;}
+
+/*success*/
+.landon-success{width: 1100px;margin:20px auto 450px;font-size: 16px;color: #666;padding:63px 0 84px;text-align: center;background: #fff url('../images/landon-success.png') center 144px no-repeat;background-size: 164px 169px;}
+.landon-success h1{font-size: 20px;color: #048af9;line-height: 32px;margin-bottom: 193px;}
+.landon-success h1>span{color: #f4403b;}
+.landon-success p{margin:203px 0 50px;}
+.landon-success .register-input-btn{width: 320px;height: 50px;line-height: 50px;font-size: 20px;}
+.landon-register input::-webkit-input-placeholder, 
+.landon-register input:-moz-placeholder,
+.landon-register input::-moz-placeholder,
+.landon-register input:-ms-input-placeholder {font-size:14px;color: #999;}
+
+.landon-register-bonus{width:308px;  float: right; margin:176px 32px 0 0; background: url('../images/landon-bonus.png') center top no-repeat; }
+.landon-register-bonus .landon-btn-oth{ width: 304px; margin-top: 182px;  box-shadow: 0 0 10px rgba(0,0,0,.2)}
+
+.landon-pop{width:830px;position:fixed; text-align: center; color: #fff; z-index: 999999; left: 50%; top: 50%; margin:-240px 0 0 -415px; }
+.landon-pop-close{width:45px; height:45px;font-size: 0;line-height: 0; cursor: pointer; position:absolute;top:0; right:50px; background: url('/static/activity/landon/images/landon-pop-close2.png') 0 0 no-repeat;}
+
+.pop-mask{position: fixed;left:0;top:0;z-index:1;width:100%;height: 100%;background: rgba(0,0,0,0.7);}
+.landon-btn-oth.landon-pop-btn{width: 270px; height:48px; line-height: 48px; font-size: 24px;}
+
+.landon-register-warp{ width: 1100px; overflow: hidden; margin: 0 auto; }
+.landon-register .v4-reg-right{ width: 420px; height: 440px;float: right;  background: #fff; margin-top: 27px; }
+.landon-register .v4-login{width: 300px;overflow: hidden;padding-top: 30px;margin:0 auto;}
+.landon-register .v4-login li {width: 100%;height: 55px;display: block;float: left;position: relative;}
+.landon-register .v4-login li input[type="text"]:focus,.v4-login li input[type="password"]:focus{ border-bottom: 1px solid #50a9f5;}
+.landon-register .v4-login li input[type="text"]:focus.red,.v4-login li input[type="password"]:focus.red{ border-bottom: 1px solid #f95e5a;}
+.landon-register .v4-login li input {border: 0;width: 100%;height: 50px;margin-top: 6px;display: block;font-size: 14px; color: #fff; outline: 0;font-family: arial; background-color: #2a3bdd; text-indent: 12px;}
+.landon-register .v4-login li input.red{ border-bottom: 1px solid #f95e5a;}
+.landon-register .v4-input-msg{ padding:11px 0;color: #f95e5a;width:300px;margin:0 auto;font-size: 12px;}
+.landon-register .v4-input-agree{ margin:-8px auto 12px; width:300px;font-size: 12px; color: #fff;}
+.landon-register .v4-input-agree a{ color: #f95e5a !important;}
+.landon-register .v4-reg1{  padding-top: 0px;}
+.landon-register .v4-reg1 li{ position: relative;}
+.landon-register .v4-reg-code{  position: absolute; top: 11px; right: 10px; cursor: pointer;}
+.landon-register .v4-login li input.v4-input-code{ width:104px; height: 40px; text-indent: 0; position: absolute; top: 11px; margin-top: 0px;right: 10px; color: #fff; line-height: 40px;border-radius: 4px;background: #048af9;}
+.landon-register .v4-login li input.v4-input-code:disabled,.landon-register .v4-login li input.v4-input-code.disable{background: #c2c0c0;}
+.v4-reg-icon{ width:16px; height: 7px; color: #999; font-size: 0; display: inline-block; position: absolute; top: 25px; right: 5px; cursor: pointer;background: url('../images/landon-close.png') center center no-repeat;background-size: cover;}
+.v4-reg-icon.open{width:17px; height: 12px;background: url('../images/landon-open.png') center center no-repeat;background-size: cover;}
+.landon-register a.v4-reg-pwd{ color: #666666; padding-top: 15px;display: inline-block; float: right;}
+.landon-register a.v4-reg-pwd:hover{ color: #50a9f5; }
+
+.register-title{height: 70px;line-height: 70px;border-bottom: 1px solid #f2f2f2;text-align: center;font-size: 16px;color: #666;vertical-align: middle;}
+.register-title>span{display: inline-block;width:15px;height: 17.5px;background: url('../images/landon-icon1.png') center center no-repeat;background-size: cover;vertical-align: middle;margin-right: 10px;margin-top: -4px;}
+.register-input-btn.disable,.register-input-btn:disabled{background-color: #c2c0c0; cursor:not-allowed;}
+.register-input-btn,a.register-input-btn{ width:300px; height:42px;line-height: 42px; text-align: center; display:block; border:none; font-size: 14px; color: #fff; background-color: #048af9;border-radius: 50px; -v4kit-border-radius: 50px; -moz-border-radius: 50px; margin:0 auto;}
+
+
+.landon-register-layer .mask{width: 100%;height: 100%;background: rgba(0,0,0,0.7);position: fixed;left:0;top:0;}
+.landon-register-layer .pop{width: 500px;height: 465px;overflow: hidden; position: fixed;left: 50%;top:50%;margin-top:-232.5px;margin-left:-250px;background: #141f87;border-radius: 4px;-webkit-border-radius:4px;}
+.pop-register .v4-login{width: 400px !important;}
+.pop-register .register-title{position:relative;width:500px;height:83px; border-bottom: none; line-height:83px;background: url('../images/landon-pop-title.png') center center no-repeat;font-size: 24px;color: #fff;}
+.pop-register .register-close{display:block;position: absolute;top:20px;right: 20px;width: 18px;height: 18px;font-size: 0;background: url('../images/landon-pop-close.png') center center no-repeat;}
+.pop-register .v4-input-msg,.pop-register .v4-input-agree{ width:400px;}
+.pop-register .register-input-btn,a.register-input-btn{width: 340px;background-image: -webkit-linear-gradient(to top, #ff5400, #ff9600);
+    background-image: linear-gradient(to top,#ff5400,#ff9600);}
+
+::-webkit-input-placeholder {
+    color: #fff !important;
+}
+:-moz-placeholder {
+    color: #fff !important;
+}
+::-moz-placeholder {
+    color: #fff !important;
+} /* for the future */
+:-ms-input-placeholder {
+    color: #fff !important;
+}
+.v4-footer-bottom{display:none;}
+

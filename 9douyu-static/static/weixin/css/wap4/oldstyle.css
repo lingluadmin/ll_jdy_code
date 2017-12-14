@@ -1,0 +1,57 @@
+  /* 实名认证 */
+.wap2-input-group{width: 100%; padding-left: 0.75rem; margin-bottom: 0.75rem; box-sizing:border-box;-webkit-box-sizing:border-box; background-color: #fff;}
+.wap2-input-box{line-height: 2.25rem; height: 2.25rem; overflow: hidden; padding-left: 1.75rem; position: relative;}
+.wap2-input-box input{border: none; display:block;background-color: transparent; width: 100%; font-size: 0.7rem; height:100%; }
+.wap2-input-icon{position: absolute; width: 1rem; height: 1rem;  background-position:0 0; background-repeat: no-repeat;background-size: 1rem 1rem;left: 0; top: 0.6rem;}
+.wap2-input-icon1{background-image: url(/static/weixin/images/wap2/wap2-icon2-1.png) }
+.wap2-input-icon2{background-image: url(/static/weixin/images/wap2/wap2-icon2-2.png) }
+.wap2-input-icon3{background-image: url(/static/weixin/images/wap2/wap2-icon2-3.png) }
+.wap2-input-icon4{background-image: url(/static/weixin/images/wap2/wap2-icon2-4.png) }
+.wap2-input-icon5{background-image: url(/static/weixin/images/wap2/wap2-icon2-5.png) }
+.wap2-input-icon6{background-image: url(/static/weixin/images/wap2/wap2-icon2-6.png) }
+.wap2-input-icon7{background-image: url(/static/weixin/images/wap2/wap2-icon2-7.png) }
+.wap2-input-icon8{background-image: url(/static/weixin/images/wap2/wap2-icon2-8.png) }
+.wap2-tip{ text-align: center; padding:0.5rem 0.75rem 1.25rem; line-height: 1rem; font-size: 0.6rem;}
+.wap2-tip.error{color: #ff514e;}
+.wap2-btn-wrap{margin-left:0.75rem;margin-right:0.75rem; overflow: hidden;}
+a.wap2-btn,input.wap2-btn{border:1px solid #ff514e; height: 2.25rem; width: 100%; box-sizing:border-box; font-size: 0.8rem; text-align: center; line-height: 2.25rem; display: block; border-radius:0.2rem; background-color: #ff514e; color: #fff;}
+a.wap2-btn.disable,input.wap2-btn.disable{background-color: #b7b7b7;border-color: #b7b7b7;}
+a.wap2-btn.wap2-btn-2,input.wap2-btn.wap2-btn-2{ background-color: transparent; color: #ff514e;}
+a.wap2-btn-half,input.wap2-btn-half{width: 45%;}
+a.wap2-btn-blue,input.wap2-btn-blue{background-color: #3cb8ff; border-color: #3cb8ff;}
+
+.wap2-input-group2{width: 100%; padding-left: 0.6rem; margin-bottom: 0.5rem; box-sizing:border-box;-webkit-box-sizing:border-box; background-color: #fff;}
+.wap2-input-iconphone{background-image: url(/static/weixin/images/wap2/wap2-icon7-1.png) }
+.wap2-input-iconlock{background-image: url(/static/weixin/images/wap2/wap2-icon7-2.png) }
+.wap2-input-iconcode{background-image: url(/static/weixin/images/wap2/wap2-icon7-4.png) }
+.wap2-input-iconinvite{background-image: url(/static/weixin/images/wap2/wap2-icon7-5.png) }
+.wap2-input-iconset{background-image: url(/static/weixin/images/wap2/wap2-icon7-3.png) }
+
+.wap2-input-box input.wap2-btn-code2,.wap2-btn-code2{position:absolute;right:0.6rem;top:0.275rem;width:4.75rem;height:1.6rem;line-height:1.6rem;background:#60b7fc;border-radius: 0.15rem;text-align:center;font-size:0.6rem;color:#fff;}
+.wap2-input-box input.wap2-btn-code2.disabled,.wap2-btn-code2.disabled{background: #d2d2d2;color:#fff;}
+.wap2-tip-agree2{font-size: 0.6rem;color: #8c8c8c;width:100%;text-align: center; margin: 0.5rem 0 3.5rem;}
+.blue2,a.blue2,a.blue2:visited,a.blue2:hover,a.blue2:active{color:#60b7fc;}
+a.wap2-btn-blue2,input.wap2-btn-blue2{background-color: #60b7fc; border-color: #60b7fc;}
+a.wap2-btn-blue2.disabled,input.wap2-btn-blue2.disabled{background-color: #d2d2d2 !important;border-color: #d2d2d2 !important;}
+.wap2-input-text{line-height: 1rem; padding:0 0.6rem 0.5rem;}
+
+.wap2-dd-box{padding:1rem 0.75rem;}
+.wap2-dd-info{width: 65%; margin-right:10%; font-size: 0.65rem; padding: 1rem; box-sizing:border-box; color:#8c8c8c; line-height:1rem;float: left; position: relative; background-color: #fff; border-radius: 1.5rem; }
+.wap2-arrow-2{border: 0.85rem solid #fff; position: absolute; top:1.5rem; right: -1.75rem; border-width: 0.5rem 0.85rem 0.5rem 1rem; overflow: hidden; width: 0; display: block; height: 0; border-color: transparent transparent transparent #fff ;}
+.wap-dd-block{ float: left; width: 25%;}
+.wap-dd-block img{width: 100%;}
+.wap2-success-txt{color: #ff514e; font-weight: bold; font-size: 1rem; line-height: 1.5rem; text-align: center;}
+.mt10px{ margin-top:0.5rem;}
+.mr1{margin-right: 0.75rem;}
+.tr{text-align: right;}
+/*我的银行卡*/
+.mybankcard{margin:0.5rem 0.75rem;height:6.45rem;background: #fff;border-radius: 0.2rem;}
+.mybankcard-unbind{line-height:6.45rem;text-align:center;font-size:0.9rem;}
+.mybankcard-unbind a{width:100%;height:100%;display:block;color:#c0c0c0;}
+.mybankcard-bind dl{margin: 0 1rem;font-size:0.7rem;color:#414141;}
+.mybankcard-bind dt{padding: 0.7rem 0;margin-bottom:0.5rem;border-bottom: 1px solid #e6e6e6;}
+.mybankcard-bind dt img{position:relative;width: 0.875rem;margin-right: 0.5rem;top: 0.175rem;}
+.mybankcard-bind dd{line-height: 1.5rem;}
+.mybankcard-tip{margin: 0.875rem 0.75rem;}
+.mybankcard-tip dt{line-height: 1.875rem;font-size: 0.7rem;color:#414141;}
+.mybankcard-tip dd{line-height: 0.9rem;font-size: 0.6rem;color:#8c8c8c;}

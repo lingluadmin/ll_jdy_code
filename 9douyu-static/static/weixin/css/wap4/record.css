@@ -1,0 +1,58 @@
+/*record*/
+body{font-family: "Helvetica","PingFang SC","Helvetica Neue","Microsoft Yahei","Arial","sans-serif";}
+.v4-record-date{line-height: 0.704rem;font-size: 0.512rem;color: #999;padding: 0.341rem 0.64rem;}
+.v4-record-list{padding:0 0 0 0.64rem;background: #fff;}
+.v4-record-list>section{border-bottom:1px solid #eee;padding: 0.619rem 0.64rem 0.619rem 0;}
+.v4-record-list>section:last-child{border-bottom: 0;}
+.v4-record-list>section>p>span{float: left;text-align: left;}
+.v4-record-list>section>p>em{float: right;text-align: right;}
+.v4-record-list span.type{font-size: 0.597rem;color: #222;line-height: 0.704rem;}
+.v4-record-list em.total{font-size: 0.683rem;line-height: 0.96rem;}
+.v4-record-list>section>p:last-child{line-height: 0.704rem;font-size: 0.512rem;color: #999;margin-top: 0.213rem;}
+.v4-status-green{color: #3CC67F !important;}
+.v4-status-red{color: #F74541 !important;}
+.v4-record-filter{display: none;}
+.v4-record-filter .mask{position: fixed;z-index:2;left:0;right: 0;top:1.92rem;bottom: 0;background: rgba(0,0,0,.6);}
+.v4-record-filter .main{position: fixed;z-index:3;left:0;right: 0;top:1.92rem;background: #fff;padding:0.853rem 0 0 0.853rem;}
+.v4-record-filter .main>a{display: block;float: left; margin-right:0.64rem; margin-bottom:0.853rem; width: 4.267rem;height: 1.493rem;line-height: 1.493rem;border:1px solid #eee;border-radius: 2.133rem;text-align: center;font-size: 0.597rem;color: #666;}
+.v4-record-filter .main>a:active,.v4-record-filter .main>a.active{background:#4298FE;color: #fff;}
+
+
+/*回款计划日历*/
+.v4-calendar-page{padding-bottom: 2.304rem;}
+.v4-calendar-year{background:#fff;}
+.v4-calendar-year{height: 1.877rem;line-height: 1.877rem;font-size:0.597rem;background: #fff;border-bottom: 0.043rem solid #eee;color: #666;text-align: center;}
+.v4-calendar-year .inner{height:100%;position:relative;width: 6.144rem;margin:0 auto;font-family: "PingFang SC";}
+.v4-calendar-year a{display: inline-block;vertical-align: middle;width: 1.536rem;height: 100%;position: absolute;top:0;}
+.v4-calendar-year a.date-reduce{left:0;background:url(/static/weixin/images/wap4/calendar/date-reduce.png) center center no-repeat; background-size:0.32rem 0.512rem;}
+.v4-calendar-year a.date-add{right:0;background:url(/static/weixin/images/wap4/calendar/date-add.png) center center no-repeat; background-size:0.32rem 0.512rem;}
+
+.v4-calendar-week{color:#999;}
+.v4-calendar-week .weekend{color:#8DC1FF;}
+.v4-calendar-wrap{padding:0.171rem 0.64rem 0.341rem;background: #fff;margin-bottom: 0.427rem;}
+.v4-calendar-day{width: 100%;font-size: 0.597rem;color: #222;}
+.v4-calendar-day td{width: 14%;text-align: center;height:1.92rem;font-family: "PingFang SC";}
+.v4-calendar-day td span{display: inline-block;vertical-align: middle;font-family: "PingFang SC";}
+.v4-calendar-day td.status1 span,.v4-calendar-day td.status2 span{width: 30px;height: 30px;line-height: 30px;border-radius: 100%;border:1px solid #F74541;}
+.v4-calendar-day td.status2 span{border: 1px solid #999;}
+.v4-calendar-day td.disabled{color:#C2C2C2;}
+
+
+.v4-calendar-item{background: #fff;padding:0 0.64rem;margin-bottom: 0.427rem;}
+.v4-calendar-item .v4-calendar-data{height: 2.347rem;border-bottom: 1px solid #eee;font-size: 0.597rem;color: #222;}
+.v4-calendar-item .v4-calendar-data:last-child{border-bottom: 0;}
+.v4-calendar-item .v4-calendar-data>p{font-size: 0.683rem;font-family: "PingFang SC";}
+.v4-calendar-item .v4-calendar-data .status1 span,.v4-calendar-data .status2 span{display: inline-block;vertical-align: middle;width: 10px;height: 10px;border-radius: 50%;background: #999;margin-right: 0.427rem;}
+.v4-calendar-item .v4-calendar-data .status1 span{background: #F74541;}
+
+.v4-calendar-project{background: #fff;margin-bottom: 0.427rem;}
+.v4-calendar-project .v4-calendar-data{border-bottom: 1px solid #eee;font-size: 0.597rem;color: #222;padding:0.64rem;}
+.v4-calendar-project .v4-calendar-data:last-child{border-bottom: 0;}
+.v4-calendar-project .v4-calendar-data span{float: left;text-align: left;}
+.v4-calendar-project .v4-calendar-data em{float: right;text-align: right;font-family: "PingFang SC";}
+.v4-calendar-project .v4-calendar-data p:last-child{font-size: 0.555rem;line-height: 0.789rem;color: #999;margin-top: 0.213rem;}
+.v4-calendar-project .v4-calendar-data p:first-child>em{font-size:0.683rem;line-height: 0.96rem;}
+.v4-calendar-data.disabled,
+.v4-calendar-data.disabled .v4-status-green,
+.v4-calendar-data.disabled .v4-status-red{color: #999 !important;}
+

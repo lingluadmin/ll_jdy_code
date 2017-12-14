@@ -1,0 +1,8 @@
+@charset "utf-8";
+body,div,h1,h2,h3,p,a,span{padding:0; margin:0;}
+body{background-color: #f4f4f4;}
+.v4-error,.v4-upgrade{ padding-top: 320px;color:#bfbfbf; margin-top: 100px; font-size: 14px; box-sizing:  border-box; text-align: center; background:url('/static/images/pc4/v4-error.jpg') top center no-repeat; background-size: 700px 373px;}
+.v4-upgrade{ background:url('/static/images/pc4/v4-upgrade.jpg') top center no-repeat; background-size: 700px 369px;}
+.v4-error h2,.v4-upgrade h2{font-size: 24px; color: #b9b8b8; font-weight: normal; line-height: 40px;}
+.v4-error a,.v4-error a:visited,.v4-error a:hover,.v4-error a:active{color:#3cb8ff; font-size: 12px; text-decoration: none; margin-left: 10px;}
+.v4-header-nav,.v4-customer-box,.v4-top-nav-wrap{display: none;}

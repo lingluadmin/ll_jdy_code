@@ -1,0 +1,47 @@
+/* CSS Document */
+
+/*注册*/
+
+.v4-reg input::-webkit-input-placeholder {font-size:14px;}
+.v4-reg input:-moz-placeholder {font-size:14px;}
+.v4-reg input::-moz-placeholder {font-size:14px;} 
+.v4-reg input:-ms-input-placeholder {font-size:14px;}
+
+.v4-reg-header{ background: #fff; height: 70px; width: 100%; background: #fff; line-height: 70px;}
+.v4-register{ width: 100%; height: 600px; margin-bottom: -80px; background: url("/static/images/pc4/register/v4-bg.jpg") repeat-x top center;}
+.v4-reg{ width: 1100px; overflow: hidden; margin: 0 auto; }
+.v4-reg-left{ float: left;}
+.v4-reg-right{ width: 420px; float: right; margin-right: 30px; background: #fff; margin-top: 35px; height: 530px;}
+.v4-reg-tab{ width: 300px; margin: 45px auto 22px;}
+.v4-reg-main{ color: #333; position: relative;}
+.v4-reg-main li{ display: inline-block; width: 150px;float: left; text-align: center;  font-size: 22px; cursor: pointer;}
+.v4-reg-main li.cur{ color: #50a9f5;}
+.v4-reg-main:after{ position:absolute; content: ""; width: 1px; height: 15px; border-left: 1px solid #f0f0f0; left: 150px; top: 5px;}
+.v4-login{width: 300px;overflow: hidden;padding-top: 30px;}
+.v4-login li {width: 300px;height: 55px;display: block;float: left;position: relative;}
+.v4-login li input[type="text"]:focus,.v4-login li input[type="password"]:focus{ border-bottom: 1px solid #50a9f5;}
+.v4-login li input[type="text"]:focus.red,.v4-login li input[type="password"]:focus.red{ border-bottom: 1px solid #f95e5a;}
+.v4-login li input {border: 0;width: 300px;height: 34px;margin-top: 20px;display: block;font-size: 14px; color: #000; outline: 0;font-family: arial;border-bottom: 1px solid #f2f2f2;}
+.v4-login li input.red{ border-bottom: 1px solid #f95e5a;}
+.v4-reg-right .v4-input-msg{ margin-bottom: 0px; margin-top:14px; }
+.v4-reg-right .v4-input-agree{ margin:18px 0 28px; }
+.v4-reg-right .v4-input-msg{ margin-bottom: 0px; margin-top:18px; }
+.v4-reg-right .v4-input-agree a{ color: #50a9f5 !important;}
+.v4-reg1{  padding-top: 0px;}
+.v4-reg1 li{ position: relative;}
+.v4-reg-code{  position: absolute; top: 7px; right: 0px; cursor: pointer;}
+.v4-login li input.v4-input-code{ width:104px; height: 40px; position: absolute; top: 7px; margin-top: 0px;right: 0px; color: #fff; line-height: 40px; }
+.v4-reg-icon{ width:17px; height: 18px; color: #999; font-size: 18px; display: inline-block; position: absolute; top: 25px; right: 5px; cursor: pointer;}
+a.v4-reg-pwd{ color: #666666; padding-top: 15px;display: inline-block; float: right;}
+a.v4-reg-pwd:hover{ color: #50a9f5; }
+
+/*注册成功弹层*/
+.v4-layer-reg .v4-layer{ padding-bottom: 50px;}
+
+/*忘记密码*/
+.v4-reg-phone{ font-size: 16px; color: #222; display: inline-block; height: 48px; line-height: 48px;}
+
+/*修改联系地址*/
+.v4-address-texta{border: 1px solid #ededed;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px; padding:10px 15px; width: 370px; height: 58px; font-size: 14px; color: #222;}
+.v4-input-group dd p.v4-address-tip{ font-size: 14px; color: #999; padding-left: 0; margin-left: -22px;}
+.v4-icon-light{ padding-right: 7px;}

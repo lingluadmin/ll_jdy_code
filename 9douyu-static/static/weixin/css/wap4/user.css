@@ -1,0 +1,54 @@
+/*user*/
+.v4-user-page-head{background: #4298FE;}
+.v4-user-head{display:block;height:8.32rem;margin-bottom:0.427rem;padding-top:0.981rem;text-align: center;color: #fff;}
+.v4-asset-txt{line-height: 0.789rem;font-size:0.555rem;font-family: "PingFang SC"}
+.v4-asset-eye{display: inline-block;vertical-align: middle;margin-left:0.384rem; width: 0.6rem;height:0.427rem;background:url(/static/weixin/images/wap4/asset/icon-open.png) left center no-repeat; background-size:0.555rem 0.427rem;font-size: 0;}
+.v4-asset-eye.active{background:url(/static/weixin/images/wap4/asset/icon-close.png) left center no-repeat; background-size:0.555rem 0.256rem;}
+.v4-asset-num{font-size:1.707rem;line-height:2.389rem;margin-bottom: 1.323rem;}
+.v4-asset-list li{width: 50%;}
+.v4-asset-list li:first-child{position: relative;}
+.v4-asset-list li:first-child:after{position: absolute;content: "";right:0;top:0.213rem;font-size: 0;width: 1px;background: rgba(255,255,255,0.3);height: 1.493rem;}
+.v4-asset-list p{font-size: 0.512rem;line-height: 0.704rem;margin-bottom: 0.171rem;}
+.v4-asset-list span{display: block;font-size: 0.853rem;line-height: 1.195rem;font-family: "PingFang SC";}
+.v4-asset-list span[data-display=star],.v4-asset-num.hidden,.v4-asset-balance>span[data-display=star]{display: none;}
+.v4-user-space{height: 2.987rem;background: #fff;padding:0 0.64rem;margin-bottom: 0.427rem;}
+.v4-asset-balance>p{font-size: 0.512rem;line-height: 0.704rem;color: #999;}
+.v4-asset-balance>span{display:block;font-size:0.939rem;line-height: 1.323rem;color: #222;font-family: "PingFang SC";}
+.v4-btn-user{float:left;padding:0 0.427rem;margin-left:0.64rem;line-height:1.067rem;border-radius: 0.085rem;background: #4298FE;font-size:0.64rem;text-align: center;color:#fff;border:1px solid #4298FE;box-sizing: border-box;}
+.v4-btn-hollow{background: #fff;color: #4298FE;}
+.v4-user-auto{padding-bottom: 4.821rem;}
+.v4-user-link{position:relative;display: block;float: left;width: 50%;height: 3.413rem;background: #fff;border-bottom: 1px solid #EEEEEE;color: #222;box-sizing: border-box;}
+.v4-user-link:nth-child(even):after{position: absolute;content: "";left:0;top:0.853rem;bottom:0.853rem;width: 1px;background:#EBEBEB;}
+.v4-user-link .icon{width: 0.853rem;height:1.621rem;margin:0 0.64rem;box-sizing: border-box;}
+.v4-user-link .icon>img{width: 100%;vertical-align: top;}
+.v4-user-link hgroup{display: block;}
+.v4-user-link .menu>h6{font-size: 0.683rem;line-height: 0.96rem;margin-bottom: 0.192rem;}
+.v4-user-link .menu>p{font-size: 0.555rem;line-height: 0.789rem;color: #999;width:4.48rem;white-space: nowrap;text-overflow: ellipsis;-o-text-overflow: ellipsis;overflow: hidden;}
+.v4-user-link .menu>p>span{color:#F74541;font-family: "PingFang SC";}
+.v4-user-link .inner{height: 100%;}
+.v4-asset-hgroup{background: #fff;border-bottom: 1px solid #eee;padding:1.067rem 0.64rem 0.853rem;}
+.v4-asset-hgroup>h5{font-size: 0.555rem;line-height: 0.789rem;color: #999;}
+.v4-asset-hgroup>p{font-size: 1.28rem;line-height: 1.792rem;color: #222;font-family: "PingFang SC";}
+.v4-asset-canvas{background: #fff;padding:0.56rem 0 0.56rem 0.64rem;margin-bottom: 0.427rem;}
+.v4-asset-canvas .text>p{font-size:0.597rem;color: #999;line-height: 0.853rem;margin-bottom: 0.853rem;}
+.v4-asset-canvas .text>p:last-child{margin-bottom: 0;}
+.v4-asset-canvas .text>p>em{color: #222;padding-left: 0.533rem;font-family: "PingFang SC";}
+.v4-asset-canvas .text>p>span{display: inline-block;width: 0.341rem;height: 0.341rem;background: #FFAA02;vertical-align: top;margin:0.22rem 0.427rem 0 0;}
+.v4-asset-canvas .text>p:nth-of-type(2)>span{background: #449CFF;}
+.v4-asset-canvas .text>p:nth-of-type(3)>span{background: #1458A6;}
+.v4-asset-canvas .shape{width:120px;height:120px;}
+.v4-asset-item{background: #fff;margin-bottom: 0.427rem;}
+.v4-asset-item>a{display: block;float:left;width: 50%;box-sizing: border-box;padding:0.64rem 0 0.64rem 0.64rem;}
+.v4-asset-item>a:first-child{position: relative;}
+.v4-asset-item>a:last-child{padding-left: 0.853rem;}
+.v4-asset-item>a:first-child:after{position: absolute;content: "";right:0;top:0.853rem; width: 1px;height: 1.707rem;background: #EBEBEB;}
+.v4-asset-item>a>h5{font-size: 0.683rem;line-height: 0.96rem;color: #222;margin-bottom: 0.213rem;}
+.v4-asset-item>a>p{font-size: 0.597rem;line-height: 0.853rem;color: #999;font-family: "PingFang SC";}
+.v4-pop-mask{position: fixed; background-color: rgba(0,0,0,.5); left: 0; right: 0; top: 0; bottom: 0; z-index: 99;}
+.v4-pop-main{position: absolute; left: 1.173rem; right:1.173rem; top: 5.25rem; z-index: 100; background-color: #fff; border-radius:0.171rem;}
+.v4-pop-box{padding:1.493rem 0.747rem 0.64rem;text-align: center;}
+.v4-pop-close{ display:block; position:absolute; top:-1.387rem; right:0; width: 0.981rem; height: 0.981rem;background: url("/static/weixin/images/wap4/asset/close.png") no-repeat 0 0 ; background-size: 100%;}
+.v4-asset-pop-box .img1{width: 4.821rem;height: 3.627rem;margin-bottom: 1.387rem;}
+.v4-asset-pop-box .p1{font-size: 0.597rem;line-height: 0.853rem;color: #FA6363;margin-bottom: 0.32rem;}
+.v4-asset-pop-box .p2{font-size: 0.683rem;line-height: 0.96rem;color: #222;margin-bottom: 0.32rem;}
+.v4-asset-pop-box .v4-btn-user{display: block;margin:0.64rem auto;padding:0;width: 100%;line-height: 1.707rem;font-size: 0.725rem;border-radius: 0.171rem;}

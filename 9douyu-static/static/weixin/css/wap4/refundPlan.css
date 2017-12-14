@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*回款计划*/
+.v4-refund{ background:#fff;}
+.v4-refund-1{ padding: 0 0.64rem; border-bottom: 1px solid #E5E5E5;}
+.v4-refund-1 table tr{ text-align: center;height: 1.92rem; line-height: 1.92rem;  font-size: 0.64rem; color: #222222;}
+.v4-refund-2 { margin:0 0.64rem;}
+.v4-refund-1 table,.v4-refund-2 table{ width: 100%;}
+.v4-refund-2 table tr{ border-bottom: 1px solid #E5E5E5; height: 2.325rem; font-size: 0.597rem; color: #666666; text-align: center;}
+.v4-refund-1 table tr td,.v4-refund-2 table tr td{ width: 33%;}
+.v4-refund-2 table tr:last-child{ border-bottom: none;}
+
+/*出借记录*/
+.v4-lend{ background: #fff; padding: 0 0.64rem; }
+.v4-lend table{ width: 100%;}
+.v4-lend table tr { border-bottom: 1px solid #E5E5E5;}
+.v4-lend table tr td{ height: 2.965rem; }
+.v4-lend table tr td:last-child{ text-align: right;}
+.v4-lend table tr td h4{ font-size: 0.597rem; color: #222222; line-height: 1.1rem;}
+.v4-lend table tr td p{ font-size: 0.512rem; color: #999999; line-height: 0.9rem;}
+.v4-lend table tr td { color: #222222;  font-size: 0.597rem;}
+.v4-lend table tr:last-child{ border-bottom: none;}
+
+.v4-load-more1{text-align: center;color: #222;font-size: 0.512rem;line-height: 1.8rem;}
+#wrapper1{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 1.92rem;
+    bottom: 0rem;
+    right: 0;
+    overflow: hidden;
+    z-index: 1;
+    color: #222;
+}

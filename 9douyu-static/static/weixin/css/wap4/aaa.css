@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body{background-color: #241802; font-weight: normal;}
+.aaa-banner{width: 100%; height:8.107rem; overflow: hidden; background: url('/static/weixin/images/wap4/aaa/banner.png') top center no-repeat; background-size: 100%;}
+.aaa-banner .aaa-title{margin-top: 5.56rem;}
+.aaa-title{text-align: center; padding: 0.853rem 0;}
+.aaa-title span{ color:#fff; font-size: 0.64rem; line-height: 0.939rem;}
+.aaa-title span em{color: #fed366;}
+.aaa-title span i{display: inline-block;width: 1.579rem;margin: 0 0.533rem; top: -0.3rem; height:1px; font-size: 0;-webkit-transform: scaleY(0.5); transform: scaleY(0.5); background-color: rgba(255,255,255,.7);position: relative;}
+.aaa-title span i:after{position: absolute; content:''; top: 0.335rem; width: 1.237rem;height:1px; overflow: hidden; background-color: rgba(255,255,255,.7);}
+.aaa-title span i.aaa-left:after{right:0;}
+.aaa-title span i.aaa-right:after{left:0;}
+
+
+.aaa-bg{width: 100%; overflow: hidden; background: url('/static/images/pc4/aaa/repeat-bg.jpg') 0 0 repeat-x; margin-bottom: -80px; }
+.aaa-wrap{ margin:0 0.64rem;}
+.aaa-info{padding:0.213rem 0.469rem; background-color: #fff; margin-bottom: 0.427rem;}
+.aaa-info p{font-size: 0.427rem; line-height: 0.725rem; color:#2f220b; padding:0.747rem 0.32rem; }
+.aaa-info p:first-child{position: relative;}
+.aaa-info p:first-child:after{position: absolute; content:'';left: 0; bottom:0; width:100%; height:1px;background-color: #e6e1da;-webkit-transform: scaleY(0.5); transform: scaleY(0.5); }
+.aaa-info-img{background-color: #fff; text-align: center; color:#a27a27;padding:0.64rem 0 0.896rem;}
+.aaa-info-img p{ font-size: 0.555rem; padding-bottom: 0.64rem; line-height: 0.939rem;}
+.aaa-info-img img{ width: 13.248rem; height:21.781rem; }
+
+.aaa-intro{color:#fff; font-size: 0.427rem; line-height:0.704rem;margin-bottom: 0.747rem;}
+.aaa-complex{background-color: #fff; padding-bottom: 0.213rem;}
+.aaa-complex h3{text-align: center; color:#663b03; font-size: 0.597rem; line-height: 0.939rem; padding:0.853rem 0 1.387rem;}
+.aaa-complex h3 span{position: relative; padding:0 0.299rem;}
+.aaa-complex h3 span em{font-weight: normal; position: relative; z-index: 5;}
+.aaa-complex h3 span i{position: absolute; content:''; bottom:0; z-index: 0; height:0.384rem; left: 0; right:0; background-color: rgba(254,211,102,.2)}
+.aaa-complex-box{overflow: hidden; }
+.aaa-complex-box li{float: left; padding:0 0.64rem 1.173rem 1.707rem; width: 2.133rem; text-align: center; color:#a27a27; font-size: 0.512rem}
+.aaa-complex-box li img{width: 2.133rem; height:2.133rem;}
+.aaa-complex-box li p{padding-top: 0.533rem;}
+
+.aaa-9dy{overflow: hidden; }
+.aaa-9dy li{ background-color: #fff; margin-bottom: 0.427rem;color:#573400; padding:0.768rem;}
+.aaa-9dy li:last-child{margin-bottom: 0;}
+.aaa-9dy li h3{text-align: center; font-size: 0.469rem; color:#573400; line-height: 0.64rem; margin-bottom: 0.555rem; }
+.aaa-9dy li p{font-size: 0.427rem; line-height: 0.64rem; text-align: justify;}
+
+.aaa-compliance,.aaa-enterprise{overflow: hidden; margin-right: -0.171rem; }
+.aaa-compliance{margin-bottom: -0.171rem;}
+.aaa-compliance li{width: 4.8rem; height:5.12rem; float: left; text-align: center; background-color: #fff; margin:0 0.149rem 0.149rem 0; padding-top:0.491rem; box-sizing: border-box;}
+.aaa-compliance-img>img{width: 1.707rem; height:1.941rem;}
+.aaa-compliance-main{ padding-top: 0.213rem }
+.aaa-compliance-main h3{font-size: 0.469rem;line-height: 0.939rem;}
+.aaa-compliance-main p{line-height: 0.448rem; font-size: 0.341rem;}
+.aaa-enterprise{margin-bottom: 2.133rem;}
+.aaa-enterprise li{float: left; width:2.816rem; height:4.267rem; margin-right: 0.128rem; background-color: #fff;padding:0.555rem 0 0 0; text-align: center; box-sizing: border-box;}
+.aaa-enterprise-img>img{width: 1.493rem; height:1.493rem;}
+.aaa-enterprise-main{ width: 1.9rem; margin:0.32rem auto 0; font-size: 0.427rem;  }
+.aaa-enterprise-main h3{line-height: 0.64rem; font-size: 0.427rem;}
+.aaa-enterprise-main p{color:#663b03;position: relative; padding-bottom: 0.107rem;}
+.aaa-enterprise-main p i{position: absolute; z-index: 0; content:''; bottom:0; height:0.384rem; left: 0; right:0; background-color: #fff6e0;}
+.aaa-enterprise-main p span{position: relative; z-index: 5;}
+
+

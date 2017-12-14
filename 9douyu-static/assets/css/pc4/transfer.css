@@ -1,0 +1,124 @@
+/*transfer widthdraw recharge*/
+.v4-account-white{background: #fff;}
+.v4-relative{position: relative;}
+.v4-user-tab{height:50px;box-sizing: border-box;background: #f9f9f9;border-bottom: 1px solid #ecedf1;}
+.v4-user-tab li{float: left;line-height:48px;margin:0 24px;text-align: center;font-size: 16px;box-sizing: border-box;}
+.v4-user-tab li a{color: #000;}
+.v4-user-tab li.cur{line-height:48px;border-bottom: 2px solid #50a9f5;}
+.v4-user-tab li.cur a{color: #50a9f5;}
+
+.v4-tab{height:50px;box-sizing: border-box;background: #fff;border-bottom: 1px solid #ecedf1; padding-left: 25px;}
+.v4-tab li{float: left; cursor: pointer; line-height:48px; padding-right: 29px; margin-right: 28px; position:relative;font-size: 14px;box-sizing: border-box;}
+.v4-tab li:first-child:after{position:absolute; content:''; width:1px; height:15px; right:0; top: 18px; background-color: #ecedf1;}
+.v4-tab li.cur,.v4-tab li.cur a,.v4-tab li.cur a:visited{color: #50a9f5;}
+.v4-tab li a,.v4-tab li a:visited{color:#222;}
+
+.v4-account-holder{background:#fafafa;border:1px solid #ededed;border-bottom: 0;box-sizing: border-box;vertical-align: middle;border-radius: 5px;}
+.v4-account-holder p{line-height: 43px;color: #222;font-size: 14px;border-bottom:1px solid #ededed;box-sizing: border-box;}
+.v4-account-holder p label{display:inline-block;width:188px;text-indent:30px;color: #999;}
+.v4-account-holder p .v4-bank-icon,.v4-account-card .cardNum .v4-bank-icon{margin-right: 10px;width: 24px;}
+/*.v4-account-holder p .v4-btn-copy,.v4-account-holder p .v4-btn-copy:hover{margin-left:10px;display: inline-block;height: 18px;line-height:18px;padding:0 8px;border:1px solid #f95e5a;color: #f95e5a;border-radius: 5px;background: #fff;text-align: center;font-size: 14px;}*/
+.v4-user-warm-tip{padding:32px 42px 40px;line-height: 26px;font-size: 14px;color: #999;}
+.v4-user-warm-tip h6{margin-top:12px;}
+.v4-user-warm-tip p{padding-left: 14px;position: relative;}
+.v4-user-warm-tip p span{position: absolute;left: 0;}
+.v4-account-info{margin-top:80px;vertical-align: middle;font-size: 14px;color: #999;}
+.v4-account-info big{font-size: 20px;vertical-align: bottom;padding-left: 10px;}
+.v4-account-info span{display:inline-block;width:115px;text-align: right;}
+.v4-account-card{display: inline-block;vertical-align: top;margin-left: 10px;}
+.v4-account-card .cardNum{color: #222;margin-bottom: 20px;}
+.v4-account-card .limited{font-size: 12px;line-height: 18px;}
+.v4-account-transfer-info-wrap{width: 538px;margin:0 auto;}
+.v4-account-rapid-info-wrap{width: 600px;margin:0 auto;}
+.v4-account-rapid-info-wrap .v4-input-group{margin-top: 22px;}
+.v4-fee-tip{font-size: 12px;color: #222;line-height:26px;position: absolute;left:0;}
+/*提示红色字体*/
+.v4-fee-tip span.v4-fee-num, .v4-copy-success,.v4-account-info big,.v4-layer-withdraw-tip,.v4-pop-confirm-tip{color: #f95e5a;}
+/*.v4-copy-success{font-size: 12px;display: none;position: absolute;left:65%;top:46%;}*/
+.v4-layer-normal-icon{margin:72px 0 40px;}
+.v4-layer-success-icon .v4-icon-20{color: #40c734;}
+.v4-layer-withdraw-tip{margin:-34px 0 42px;font-size: 14px;}
+.v4-layer-withdraw-question{padding-top:20px;}
+.v4-layer-withdraw-question a{color: #999;}
+.v4-recharge-channel-wrap {
+    margin-left: -10px;
+    float: left;
+}
+.v4-recharge-channel {
+    width: 148px;
+    height: 108px;
+    margin: 0 0 10px 10px;
+    padding: 0 15px 10px;
+    float: left;
+    border: 1px solid #ecedf1;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    color: #000;
+}
+.v4-recharge-channel-bt {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 0 10px;
+    border-bottom: 1px solid #ecedf1;
+    font-size: 14px;
+    text-align: center;
+}
+.v4-recharge-channel-bt img {
+    margin-right: 10px;
+}
+.v4-recharge-channel-txt {
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+}
+.v4-recharge-bank{width:464px;margin:0 0 40px 0;position: relative;left: -6px;}
+.v4-recharge-bank ul li {
+    float: left;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+    width: 108px;
+    height: 40px;
+    margin: 0 0 6px 6px;
+    border: 1px solid #ededed;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.v4-recharge-bank ul li>img{width: 108px;}
+.v4-recharge-channel.active,.v4-recharge-channel:hover,.v4-recharge-bank ul li.active,.v4-recharge-bank ul li:hover{
+    border: 1px solid #50a9f5;
+    box-shadow: inset 0 0 5px rgba(80,169,245,0.3);
+    cursor: pointer;
+}
+.v4-hidden-tabbox{display: none}
+.v4-mt-50{margin-top: 50px;}
+.v4-mt-80{margin-top: 80px !important;}
+.v4-mt-15{margin-top: 15px;}
+.v4-mt-20{margin-top: -20px;}
+.v4-mt-plus-20{margin-top: 20px;}
+.v4-recharge-tip{text-align: center;padding:32px 42px 80px;font-size: 14px;color: #999;}
+.v4-recharge-tip i{padding-right: 5px;}
+.v4-layer-widthdraw{width:400px;margin:0 auto 30px;}
+.v4-pop-doublebtn-wrap{text-align: center;}
+.v4-pop-doublebtn-wrap .v4-input-btn{display: inline-block;width: 180px;margin:30px 9px 0;text-align: center;}
+.v4-pop-confirm-tip{font-size: 22px;text-align: center;margin:40px 0 26px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

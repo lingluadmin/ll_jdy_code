@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+body{background-color: #50227b; font-weight: normal;}
+.body-fix{height:100%; position: relative; overflow: hidden;}
+.iphone8-banner{width: 100%; height:13.995rem; position: relative; background:url('/static/weixin/activity/iphone8/images/banner.jpg') top center no-repeat; background-size: cover; }
+.iphone8-banner span{position:absolute; color:#fff;font-size: 0.427rem; overflow: hidden; right:0.32rem; top:9rem; padding:0.213rem 0.128rem; border:1px solid rgba(255,255,255,.5); border-radius: 0.107rem;}
+.iphone8-lottery{width: 100%; height:14.037rem; background:url('/static/weixin/activity/iphone8/images/lottery.png') top center no-repeat; background-size: cover; }
+.iphone8-lottery-main{padding:2.005rem 1.621rem 0; }
+.iphone8-lottery-main table{width: 100%; }
+.iphone8-lottery-main table td{ width: 33.33;}
+ a.lottery-btn{ width: 4.117rem; height: 3.051rem; background: url('/static/weixin/activity/iphone8/images/lottery-btn.png') top center no-repeat; display:block; background-size: cover; margin: 2px 0 0 1px; }
+.sp-bg{  width: 4.117rem;  height:3.051rem; background: url('/static/weixin/activity/iphone8/images/lottery-bg.png') top center no-repeat;  background-size: cover; margin: 2px 0 0 1px;}
+.sp-bg.active{  background: url('/static/weixin/activity/iphone8/images/lottery-bg-hover.png') top center no-repeat;  background-size: cover; }
+.sp-bg img{ width: 4.117rem; height:3.051rem;}
+.iphone8-list{background-color: #fffcf2; border-radius: 0.32rem; -webkit-border-radius: 0.32rem; margin:1.28rem 0.64rem 1.067rem; padding:0.32rem 0.64rem;}
+.iphone8-list h3{text-align: center; font-size: 0.768rem; color:#a70000; line-height: 1.707rem; padding-top: 0.213rem;}
+.iphone8-list-main{width: 100%; height:14.08rem; overflow: hidden; font-size: 0.597rem; color:#333;}
+.iphone8-list-main li{width: 100%; border-bottom: 1px solid #ffdcbd; height:2.325rem; line-height: 2.325rem; overflow: hidden;}
+.iphone8-list-main li em{float: right;}
+.iphone8-list-main li i{font-style: normal; color:#ff2e2e; font-size: 0.512rem; height:2.325rem; display:inline-block; padding:0 0.32rem 0 0.896rem; box-sizing: border-box;background: url('/static/weixin/activity/iphone8/images/hot.png') left center no-repeat;  background-size: 0.725rem 0.469rem; }
+.iphone8-list-main li span{display:inline-block;}
+.iphone8-rule{color:#b68fda; padding:0.64rem 0.64rem 2.133rem; font-size: 0.555rem; line-height:0.981rem;}
+.iphone8-rule h3{text-align: center; font-size: 0.597rem; margin-bottom: 0.427rem; position: relative; font-weight: normal;}
+.iphone8-rule h3:before,.iphone8-rule h3:after{position:absolute; content:''; width: 38%; height:1px; background-color: #8565a3; top: 48%;}
+.iphone8-rule h3:before{left: 0;}
+.iphone8-rule h3:after{right:0;}
+.iphone8-rule h3 small{font-size: 0.128rem; margin:0 0.427rem; color:#8565a3;}
+
+
+.page-mask{position:fixed;z-index:1;width: 100%;height: 100%;left:0;top:0;right:0;bottom:0;background: rgba(0,0,0,.8);}
+.page-pop{position: fixed;z-index:2;width:12.16rem; padding:1.387rem 0 1.109rem; left: 50%;top:50%;transform: translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);background:-moz-linear-gradient(top,#f43c3b,#ff5938);/*Mozilla*/
+background:-webkit-gradient(linear,0 50%,100% 50%,from(#f43c3b),to(#ff5938));/*Old gradient for webkit*/
+background:-webkit-linear-gradient(top,#f43c3b,#ff5938);/*new gradient for Webkit*/
+background:-o-linear-gradient(top,#f43c3b,#ff5938); /*Opera11*/ border-radius: 0.427rem; -webkit-border-radius: 0.427rem;}
+.page-pop.pop-error{background:-moz-linear-gradient(top,#56136b,#66378f);/*Mozilla*/
+background:-webkit-gradient(linear,0 50%,100% 50%,from(#56136b),to(#66378f));/*Old gradient for webkit*/
+background:-webkit-linear-gradient(top,#56136b,#66378f);/*new gradient for Webkit*/
+background:-o-linear-gradient(top,#56136b,#66378f); /*Opera11*/ }
+.page-pop-close{position:absolute;z-index: 3;width:0.768rem;height:0.747rem;top:0.427rem;right:0.427rem;background: url("/static/weixin/activity/iphone8/images/pop-close.png") 0 0 no-repeat;background-size: 100%;font-size: 0;}
+.page-pop-content{background: url("/static/weixin/activity/iphone8/images/pop-bg.png") center 1.792rem no-repeat;background-size: 10.517rem 5.205rem; }
+.page-pop-content h4{text-align: center; color:#fff; font-size: 1.28rem; line-height: 1.707rem; margin-bottom: 0.64rem; text-shadow:0 0 2px rgba(0,0,0,.3)}
+.page-pop-content p{color: #fff;font-size:0.853rem;text-align: center; line-height: 1.237rem; text-shadow:0 0 2px rgba(0,0,0,.3)}
+
+.pop-bonus{width: 7.488rem; height:3.029rem; line-height: 3.029rem; margin:0.853rem auto 0; text-align: center; font-size: 0.811rem; color:#7c569e;background: url("/static/weixin/activity/iphone8/images/pop-bonus.png") center top no-repeat;background-size: 100%;}
+
+.pop-error-img{width: 2.987rem; height: 2.987rem; margin-bottom: 0.427rem;} 
+.pop-error p{line-height: 1.387rem;}
+
+.page-pop-btn{display:block;width:10.411rem;height:1.707rem;margin:1.707rem auto 0;line-height:1.707rem;background:#fff;text-align: center;border-radius:0.32rem;color: #e03233;font-size:0.64rem;}
+.page-pop-btn.btn2{margin-top: 0.768rem; font-size: 0.853rem;}
+.page-pop-btn2{display:block;width:10.411rem;height:1.707rem;margin:1.067rem auto 0;line-height:1.707rem;text-align: center;border-radius:0.32rem;color: #58176f;font-size:0.853rem;background:-moz-linear-gradient(top,#ff4c4c,#ff7f40);/*Mozilla*/
+background:-webkit-gradient(linear,0 50%,100% 50%,from(#ff4c4c),to(#ff7f40));/*Old gradient for webkit*/
+background:-webkit-linear-gradient(top,#ff4c4c,#ff7f40);/*new gradient for Webkit*/
+background:-o-linear-gradient(top,#ff4c4c,#ff7f40); /*Opera11*/}
+
+.page-pop-content2{padding:0 0.853rem;}
+.v4-login{overflow: hidden;}
+.v4-login li {width: 100%; height:1.92rem; overflow: hidden; display: block;position: relative; padding-top: 0.341rem;}
+.v4-login li input[type="text"]:focus,.v4-login li input[type="password"]:focus{ border-bottom: 1px solid #50a9f5;}
+.v4-login li input[type="text"]:focus.error,.v4-login li input[type="password"]:focus.error{ border-bottom: 1px solid #f95e5a;}
+.v4-reg-input{border: 0;width:100%;height:1.92rem;line-height: 0.64rem; padding:0.64rem 0; box-sizing: border-box; display: block;font-size: 0.64rem;color: #777;outline: 0;font-family: arial;border-bottom: 1px solid #e3e3e3;}
+.v4-reg-input.error{ border-bottom: 1px solid #f95e5a;}
+.v4-reg-code{  position: absolute; width:3.968rem;height:1.28rem; top: 0.504rem; right: 0px;}
+.v4-input-code{width:3.968rem; height:1.152rem;position: absolute;bottom: 0.384rem; right: 0; line-height:1.152rem; text-align: center;  font-size: 0.555rem; color: #fff;background-color: #d29bff; border:none; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;}
+.v4-input-code.disable,.v4-input-btn.disable{background-color: #c3c3c3; cursor:not-allowed ;}
+.v4-input-msg{font-size: 0.512rem; color: #f95e5a; margin:0.427rem 0 0;}
+.v4-input-btn{ width:100%; height:1.707rem;line-height:1.707rem; border:none; margin-top: 0.725rem; font-size: 0.853rem; color: #fff;border-radius: 0.32rem; -webkit-border-radius: 0.32rem; -moz-border-radius: 0.32rem;background:-moz-linear-gradient(top,#fe4545,#ff5b5b);/*Mozilla*/
+background:-webkit-gradient(linear,0 50%,100% 50%,from(#fe4545),to(#ff5b5b));/*Old gradient for webkit*/
+background:-webkit-linear-gradient(top,#fe4545,#ff5b5b);/*new gradient for Webkit*/
+background:-o-linear-gradient(top,#fe4545,#ff5b5b); /*Opera11*/ text-shadow: 0 0 2px rgba(0,0,0,.3);}
+
+
+.page-pop.pop-register{position:absolute; background:#fff; padding: 0 0 0.427rem; width: 13.44rem;}
+.pop-register-title{text-shadow: 0 0 2px rgba(0,0,0,.3); color:#fff; font-size: 0.853rem; text-align: center; line-height:2.581rem ; width: 15.339rem; height:3.221rem; margin:0 -0.939rem 0 -0.939rem; background: url("/static/weixin/activity/iphone8/images/pop-register-title.png") 0 0 no-repeat;background-size: 100%; }
+.pop-register-login{text-align: right; padding:0.939rem 0 0; }
+.pop-register-login a,.pop-register-login:visited{color:#0099ff; font-size: 0.555rem;}
+
+
+::-webkit-input-placeholder {
+    color: #777 !important;
+    font-size:0.64rem;
+}
+:-moz-placeholder {
+    color: #777 !important;
+    font-size:0.64rem;
+}
+::-moz-placeholder {
+    color: #777 !important;
+    font-size:0.64rem;
+} /* for the future */
+:-ms-input-placeholder {
+    color: #777 !important;
+    font-size:0.64rem;
+}

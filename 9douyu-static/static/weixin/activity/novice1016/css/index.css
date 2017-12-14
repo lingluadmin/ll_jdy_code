@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+body{background-color: #fc9d25;font-weight:normal;}
+
+.landon-top{padding:0 0.64rem; height: 2.133rem; line-height: 2.133rem; background-color: #fff;}
+.landon-logo{float: left; display:block; width: 2.624rem;}
+.landon-logo>img{width: 2.624rem; display:block; margin-top: 0.704rem;}
+.landon-login{float: right; font-size: 0.512rem; color: #999;}
+.landon-login a{color: #048af9;}
+
+.landon-banner{ width: 100%; height:13.589rem; overflow: hidden; background:url('/static/weixin/activity/novice1016/images/banner.png') 0 0 no-repeat; background-size: 100%;}
+
+.landon-box{background-color: #fff; margin:0 0.427rem 1.195rem; border-radius: 0.107rem;position: relative; padding-bottom: 0.939rem;}
+.landon-box.box2{border:0.085rem solid #f04e20; box-sizing: border-box; }
+.landon-box.box2 .landon-title{top: -0.235rem;}
+.landon-box.box3{padding-bottom: 0;}
+.landon-title-icon{ position: absolute; top: 0.213rem; left: -2.3rem; width: 11.755rem; height:0.811rem;background:url('/static/weixin/activity/novice1016/images/title-icon.png') 0 0 no-repeat; background-size: 100%;}
+
+.landon-custody{text-align: center;padding:0.768rem 0; border-bottom: 1px solid #d2d2d2; }
+.landon-custody>img{width: 0.597rem; vertical-align: middle; margin-right: 0.427rem;}
+
+
+a.v4-block-btn{ width:12.8rem; margin:0 auto;text-align: center; height:1.664rem;line-height: 1.664rem; display: block; font-size: 0.683rem; color: #fff; background-color: #048af9;border-radius: 1.664rem; -webkit-border-radius: 1.664rem; -moz-border-radius: 1.664rem; }
+
+.landon-title{position:relative; top: -0.149rem; width:7.104rem; height:1.365rem; line-height: 1.365rem; text-align: center; font-size:0.725rem; color: #b55500; margin:0 auto; background:url('/static/weixin/activity/novice1016/images/title.png') 0 0 no-repeat; background-size: 100%; }
+.landon-progress{text-align: center; padding-top: 1.28rem;}
+.landon-progress>img{width: 12.8rem; height:11.093rem;}
+.landon-bonus{text-align: center; padding-top: 0.853rem;}
+.landon-bonus>img{width: 13.909rem;}
+.landon-btn{display:block; width: 12.672rem; height:1.707rem; line-height: 1.707rem; text-align: center; color: #fff;font-size: 0.683rem;background:-moz-linear-gradient(top,#ff9600,#ff5400);
+background:-webkit-gradient(linear,0 50%,100% 50%,from(#ff9600),to(#ff5400));
+background:-webkit-linear-gradient(top,#ff9600,#ff5400);
+background:-o-linear-gradient(top,#ff9600,#ff5400);  border-radius: 1.493rem; -webkit-border-radius: 1.493rem; margin:0.939rem auto 0;}
+.landon-btn2{display:block; width: 12.672rem; height:1.707rem; line-height: 1.707rem; background-color: #f87900; text-align: center; color: #fff;font-size: 0.683rem;border-radius: 1.493rem; -webkit-border-radius: 1.493rem; margin:0.939rem auto 0;}
+.landon-btn.disable,.landon-bonus-btn.disable,.landon-btn2.disable{background:#b8b8b8;}
+
+.landon-bonus-btn{display:block; width: 12.672rem; height:1.835rem; line-height: 1.835rem; text-align: center; color: #fff;font-size: 0.683rem;background:-moz-linear-gradient(top,#ff5a00,#ec1c12);
+background:-webkit-gradient(linear,0 50%,100% 50%,from(#ff5a00),to(#ec1c12));
+background:-webkit-linear-gradient(top,#ff5a00,#ec1c12);
+background:-o-linear-gradient(top,#ff5a00,#ec1c12);  border-radius: 1.835rem; -webkit-border-radius: 1.835rem; margin:10.411rem auto 0;}
+
+
+.landon-project{overflow: hidden; padding-top: 1.067rem; text-align: center; font-size: 0.555rem; color: #666;}
+.landon-project li{ display:inline-block; width: 27%; line-height: 1.067rem; }
+.landon-project li big{font-size: 0.96rem;}
+.landon-project li .red{color: #f4403b;}
+.landon-project li .black{color: #333;}
+.landon-project li:nth-child(2){position:relative;}
+.landon-project li:nth-child(2):after,.landon-project li:nth-child(2):before{position:absolute; content:'';  width: 1px; height:1.28rem; background-color: #e2e2e2; top: 0.427rem;background-color: #ccc; -webkit-transform: scaleX(0.5); transform: scaleX(0.5); }
+.landon-project li:nth-child(2):before{left: 0;}
+.landon-project li:nth-child(2):after{right: 0;}
+
+
+.landon-calculator{width: 15.147rem; height:15.275rem; padding:1.6rem 0 0 1.237rem; box-sizing: border-box;  margin:0 auto 1.024rem; background:url('/static/weixin/activity/novice1016/images/calculator.png') 0 0 no-repeat; background-size: 100%;}
+.landon-calculator .landon-btn2{margin:0.683rem 0 0;}
+.calculator-sumarry{color:#fff; font-size: 0.725rem; line-height: 1.067rem; padding:0 0 1rem 0.768rem; text-shadow: 0 2px 2px rgba(0,0,0,.1)}
+.calculator-sumarry .yellow{color:#ffbf19;}
+.calculator-title{font-size: 0.683rem; color:#666; line-height: 0.853rem; margin-bottom: 0.533rem;}
+.calculator-tab{padding-bottom: 0.653rem}
+.calculator-tab a{display:inline-block; height:1.493rem; margin-right: 3px; line-height: 1.493rem; font-size:0.512rem; color:#333; padding:0 0.469rem; border:1px solid #bfbfbf; border-radius: 0.107rem; box-shadow: 0 2px 0 #d7d7d7,inset 2px 2px 0 rgba(255,255,255,.5)}
+.calculator-tab a:active,.calculator-tab a.active{color:#ff7229;}
+.calculator-input{display:block; width: 12.672rem; height:1.92rem;  box-sizing: border-box; text-indent: 0.768rem; font-size: 0.64rem;  border:1px solid #bdbdbd; box-shadow: inset 1px 1px 5px rgba(0,0,0,.2) ; border-radius: 5px;}
+
+.landon-list{width: 15.531rem; height:12.203rem; margin:0 auto 1.195rem;background:url('/static/weixin/activity/novice1016/images/list-bg1.png') 0 0 no-repeat; background-size: 100%;}
+.landon-list-title{text-align: center; padding:1.024rem 0 0.597rem; font-size: 0.725rem; color:#333;}
+.landon-list-title img{width: 0.811rem; vertical-align: middle; margin-right: 0.384rem;}
+.landon-list-main{padding-left: 1.813rem; height:8.576rem; overflow: hidden;}
+.landon-list-main li{margin-bottom: 0.384rem;}
+.landon-list-main p{display:inline-block; font-size: 0.597rem; color:#333;}
+.landon-list-main p:first-child{width: 2.389rem; height:1.024rem; line-height: 1.024rem; text-align: center; border:1px solid #dcdcdc; position:relative; border-radius: 1.024rem; margin-right: 0.725rem;}
+.landon-list-main p:first-child:after{position:absolute; content:''; width: 1px; height:0.384rem; background-color:#dcdcdc; left: 50%; bottom:-0.384rem;}
+.landon-list-main p .red{color:#ff3333;}
+
+
+.landon-advantage{background-color: #fff; padding:0 2.347rem;}
+.landon-advantage-item{  color: #333; padding-bottom: 0.768rem; border-bottom: 1px solid #dcdcdc; width: 13.077rem; margin:0 auto 0.853rem;}
+.landon-advantage-img{float: left; text-align: center; font-size: 0.683rem; margin-right: 0.611rem;}
+.landon-advantage-txt{width: 8.704rem; margin-top: 0.75rem; float: left; font-size: 0.555rem;  line-height: 0.853rem;text-align:  justify;}
+
+.landon-advantage-item img{width: 3.755rem;}
+.landon-advantage-item.first{margin-top: 1rem;}
+.landon-advantage-item.third{border-bottom: 0;}
+.first .landon-advantage-txt{margin-top: 0.5rem;}
+.second .landon-advantage-img img,.third .landon-advantage-img img{margin-bottom: 0.25rem;}
+
+.second .landon-advantage-img{float: right;margin:0 0 0  0.611rem;}

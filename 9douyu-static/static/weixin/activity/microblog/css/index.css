@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors tianxiaoyan (you@example.org)
+ * @date    2017-11-27 14:25:45
+ * @version $Id$
+ */
+body{ background: #524b96; }
+.wei-banner{width: 100%; height: 20.139rem; background: url('/static/weixin/activity/microblog/images/banner.jpg') top center no-repeat; background-size: 100%;}
+.wei-bg{ width: 100%; height: 32.491rem; background: url('/static/weixin/activity/microblog/images/bg.jpg') top center no-repeat; background-size: 100%; }
+.wei-bg-1{ margin:0 1.877rem 0 2.304rem;  background: linear-gradient(#503ac1,#7645d9) #553bd6; border-radius: 0.213rem; color: #fff; font-size: 0.56rem; line-height:0.77rem; padding: 0.4rem 0.64rem 0.2rem; text-align: justify;  }
+.wei-bg-1 span.icon{ display: inline-block; width: 1.045rem; height: 0.704rem;background: url('/static/weixin/activity/microblog/images/icon.png') top center no-repeat; background-size: cover;}
+.wei-bg-1 span.icon1{ display: inline-block; width:0.661rem; height: 0.747rem;background: url('/static/weixin/activity/microblog/images/icon1.png') top center no-repeat; background-size: cover;}
+.wei-bg-1 span.icon2{ display: inline-block; width: 0.939rem; height: 0.533rem;background: url('/static/weixin/activity/microblog/images/icon2.png') top center no-repeat; background-size: cover;}
+.wei-title{width:4.864rem; height:1.131rem;background: url('/static/weixin/activity/microblog/images/title.png') top center no-repeat; background-size: cover; margin:0 auto 0.3rem; text-align: center; line-height: 1.38rem; font-weight: bold;}
+.wei-1{ margin-top:1.05rem;}
+.wei-time{ text-align: center; font-size: 0.512rem; padding-bottom: 0.2rem;}
+.wei-list span{ display: inline-block; width: 0.405rem; height:0.405rem;background: url('/static/weixin/activity/microblog/images/icon3.png') top center no-repeat; background-size: cover; margin-right: 0.2rem;}
+.wei-list{ font-size: 0.48rem; padding-top: 0.1rem; text-align: justify;}
+.wei-2{ font-size: 0.427rem; background: #804ded; border-radius: 0.213rem; padding:0.213rem; margin-top: 0.3rem; line-height: 0.7rem;}
+.wei-prize{ width: 10.645rem; height: 4.352rem;background: url('/static/weixin/activity/microblog/images/prize.png') top center no-repeat; background-size:100%; margin:0.3rem auto 0;}
+.wei-3{margin-top: 0.405rem; padding-bottom: 0.4rem;}
+.wei-text{display:block; width: 9.813rem; height: 2.155rem; margin:0.384rem auto; }
+.wei-btn{ display: block; width: 13.035rem; height: 1.856rem; background: url('/static/weixin/activity/microblog/images/btn.png') top center no-repeat; background-size: cover; margin:0 auto;}
+.wei-logo{ display: block; width: 6.016rem; height: 1.749rem; margin:1.46rem auto 0;}
+

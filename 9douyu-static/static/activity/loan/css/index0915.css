@@ -1,0 +1,85 @@
+@charset "utf-8";
+body{background-color: #ca2020;}
+.pop-a-wrap{display:none;}
+.loan-banner{width: 100%; height:461px; background:url('/static/activity/loan/images0915/banner.jpg') top center no-repeat;}
+.loan-title{width: 387px;height:64px; margin:0 auto; color:#fff;  background-repeat:no-repeat; background-size: 100%;}
+.loan-title.title1{ width: 261px;background-image:url('/static/activity/loan/images0915/title1.png')}
+.loan-title.title2{background-image:url('/static/activity/loan/images0915/title2.png')}
+.loan-title.title3{background-image:url('/static/activity/loan/images0915/title3.png')}
+.loan-title.title4{background-image:url('/static/activity/loan/images0915/title4.png')}
+.loan-title.title5{background-image:url('/static/activity/loan/images0915/title5.png')}
+.loan-title.title6{background-image:url('/static/activity/loan/images0915/title6.png')}
+
+.loan-preface{background-color: #fff; margin-bottom: 48px; position: relative; box-shadow: 0 4px 5px rgba(186,25,23,.9)}
+.loan-preface:after,.loan-preface:before{position:absolute; content:''; width: 74px; height:74px; border:1px solid #fff;}
+.loan-preface:before{top: -10px; left: -10px; border-width: 1px 0 0 1px;}
+.loan-preface:after{bottom: -10px; right: -10px; border-width: 0 1px 1px 0;}
+.loan-preface p{font-size: 16px; line-height: 35px; color:#711b06; text-indent: 2em; padding:35px; text-align: justify;}
+
+.loan-block{overflow: hidden; padding-bottom: 76px;}
+.loan-block-main{width: 210px; height:180px;margin-left: 68px; float: left; position:relative; text-align: center; background-color: #fff; border-radius: 5px; }
+.loan-block-main i{display:inline-block; margin: 22px 0 10px; height:57px;background-repeat:no-repeat; background-size: 100%;}
+.loan-block-main.main1 i{width: 45px;background-image:url('/static/activity/loan/images0915/icon1.png')}
+.loan-block-main.main2 i{width: 57px;background-image:url('/static/activity/loan/images0915/icon2.png')}
+.loan-block-main.main3 i{width: 51px;background-image:url('/static/activity/loan/images0915/icon3.png')}
+.loan-block-main.main4 i{width: 44px;background-image:url('/static/activity/loan/images0915/icon4.png')}
+.loan-block-main p{font-size: 16px; color:#444; line-height: 25px;}
+.loan-block-main p span{color:#ed3402;}
+.loan-block-main.main1{margin-left:28px; }
+.loan-block-main ins{position: absolute; width: 266px; height:58px; bottom:-25px; left:-28px;background:url('/static/activity/loan/images0915/star.png') top center no-repeat; background-size: 100%;}
+
+.loan-leader{background-color: #fff; padding:0 50px; margin-bottom: 50px;}
+.loan-leader li{overflow: hidden; border-bottom: 1px solid #ffe1c4; padding:40px 0;}
+.loan-leader li:last-child{border-bottom: none;}
+.loan-leader img{width: 306px; height:185px; float: left; }
+.loan-leader-txt{width: 658px; float: right;}
+.loan-leader-txt h3{font-size: 20px; color:#711b06; line-height: 30px; margin-bottom: 10px;}
+.loan-leader-txt p{font-size: 16px; color:#444; line-height: 30px; text-align: justify;}
+.loan-leader-right img{; float: right}
+.loan-leader-right .loan-leader-txt{; float: left;}
+
+.loan-mt1{margin-top: 10px;}
+.loan-mt2{margin-top: 23px;}
+.loan-mt3{margin-top: 30px;}
+
+.loan-license{background-color: #b11515; padding:20px 0 0 22px; margin-bottom: 50px; overflow: hidden; border:6px solid #c42320; box-shadow: 0 0 20px rgba(255,255,255,.2),inset 0 0 3px rgba(165,16,16,.8);}
+.loan-license li{float: left; padding-bottom: 30px; text-align: center;font-size: 16px; color:#fff; line-height: 22px; margin-right: 15px;}
+.loan-license li strong{font-size: 18px; color:#ffd9b1;}
+.loan-license li img{margin-bottom: 15px; box-shadow: 0 0 20px rgba(113,36,4,.3)}
+.loan-license li p{margin-bottom: 10px;}
+.loan-media{text-align: center; margin:0 -23px 90px;}
+.loan-media img{width: 242px; height:82px; margin:0 20px;box-shadow: 0 0 20px rgba(113,36,4,.3)}
+
+.loan-right-bonus{position:fixed; z-index: 10; bottom:0; right:0; width: 166px; height:150px;background:url('/static/activity/loan/images0915/right-bonus.png') top center no-repeat; background-size: 154px 113px;}
+a.loan-right-btn,a.loan-right-btn:visited{display:block; margin: 100px auto 0; font-size: 18px; color:#fff; text-align: center; width:166px; height:35px; line-height: 35px; border-radius: 35px;background:-moz-linear-gradient(top,#606cd9,#535fd3);/*Mozilla*/
+background:-webkit-gradient(linear,0 50%,100% 50%,from(#606cd9),to(#535fd3));/*Old gradient for webkit*/
+background:-webkit-linear-gradient(top,#606cd9,#535fd3);/*new gradient for Webkit*/
+background:-o-linear-gradient(top,#606cd9,#535fd3); /*Opera11*/ box-shadow: 0 0 20px rgba(113,36,4,.8)}
+a.loan-right-btn:hover,a.loan-right-btn:active{color:#fff;background:-moz-linear-gradient(top,#525ec7,#424fc4);/*Mozilla*/
+background:-webkit-gradient(linear,0 50%,100% 50%,from(#525ec7),to(#424fc4));/*Old gradient for webkit*/
+background:-webkit-linear-gradient(top,#525ec7,#424fc4);/*new gradient for Webkit*/
+background:-o-linear-gradient(top,#525ec7,#424fc4); /*Opera11*/}
+
+/*弹窗*/
+.pop-wrap{ display: block;}
+.pop-close{cursor: pointer; position: absolute; top: 13px; right: 13px; width:22px; height:22px; background: url("/static/activity/loan/images0915/pop-close.png") top center no-repeat;overflow: hidden;}
+.loan-pop-title{height:110px;background:url('/static/activity/loan/images0915/pop-title.jpg') top center no-repeat; color:#fff; font-size: 22px; line-height: 32px; text-align: center;}
+.loan-pop-title p{padding-top: 25px;}
+.lantern-pop{position: fixed;  width: 450px; height: 400px; background: #fff; margin-left: -225px; left: 50%;top:50%; margin-top: -200px; z-index: 100;border-radius: 8px; overflow: hidden;}
+.pop-mask {filter: alpha(opacity=70);-moz-opacity: 0.7;opacity: 0.7;width: 100%;background: #000; position: fixed;top: 0;left: 0;bottom: 0;z-index:99;}
+a.loan-btn1,a.loan-btn1:visited{ display:block;width: 300px; height: 42px;line-height: 42px; font-size: 20px; margin:0 auto;color: #fff;text-align: center;background:url('/static/activity/loan/images0915/pop-btn.png') 0 0 no-repeat; }
+a.loan-btn1:hover,a.loan-btn1:active{color: #fff;background:url('/static/activity/loan/images0915/pop-btn-hover.png') 0 0 no-repeat;}
+.lantern-pop p{text-align: center;}
+.lantern-pop .text3{ font-size: 20px;  line-height: 30px;color: #333;}
+.lantern-pop .text4{ font-size: 20px; line-height: 30px; padding-bottom: 15px;color: #333;}
+.lantern-pop .text5{ font-size: 20px; padding-top: 10px;   padding-bottom: 30px;color: #333;}
+.lantern-pop .text6{font-size: 16px;color: #333;padding-bottom: 15px;}
+
+.loan-icon{ margin: 26px auto 14px; text-align: center;}
+.loan-icon1{ margin: 26px auto 0; text-align: center;}
+
+
+.loan-pop-info{padding:18px 20px; margin-top: 22px; border-top: 1px solid #fff1db; color:#555; line-height: 23px; font-size: 14px;}
+.loan-pop-info dt{float: left;}
+.loan-pop-info dd{margin-left: 70px;}
+

@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*密码管理*/
+.v4-management{ position: relative; display: block; height: 2.347rem; background: #fff; line-height:2.347rem; color: #222222; font-size: 0.683rem; padding:0 0.64rem; margin-top: 0.427rem; }
+.v4-management:after{position: absolute;content: "";width:0.341rem;height: 0.341rem; top:0.939rem; right: 0.64rem;  border: 1px solid #D8D8D8;transform: rotate(-45deg);-webkit-transform: rotate(-45deg);border-width: 0 1px 1px 0;}
+
+/*优选项目*/
+.v4-project-1{ height: 3.627rem; background: #4298FE;}
+.v4-project-1 ul { overflow: hidden; text-align: center; position: relative;}
+.v4-project-1 ul li{ width: 50%; color: #fff; font-size: 0.512rem; display: inline-block; float: left;}
+.v4-project-1 ul li p:last-child{ font-size: 0.768rem; line-height: 1.6rem;}
+.v4-project-1 ul li p:first-child{ padding-top: 0.939rem;}
+.v4-project-1 ul li:first-child:after{ position: absolute; display: block; content: "";height: 1.28rem; width: 1px; background:rgba(250,250,250,.3); top:1.28rem; left: 50%;}
+
+.v4-bonus-nav{width: 100%; overflow: hidden; background-color: #fff;}
+.v4-bonus-nav li{width: 33.33%; float: left; text-align: center;color: #222; line-height: 1.877rem;}
+.v4-bonus-nav li span{display: inline-block; color:#222; width: 3.2rem; border-bottom: 2px solid rgba(255,255,255,0); font-size: 0.64rem;}
+.v4-bonus-nav li.active span{border-bottom: 2px solid rgba(66,152,254,1); color: #4298FE;}
+.v4-bonus-main{padding: 0.64rem 0.64rem 0; display:none;}
+.v4-bonus-box{margin:0 0 0.427rem 0.64rem; height:4.267rem;  background-color: #fff; position:relative; padding-left: 4.261rem; box-sizing: border-box;}
+.v4-bonus-num{position:absolute; padding-top: 0.939rem; box-sizing: border-box; left: -0.64rem; right: 0; width:4.267rem; height:4.267rem; text-align: center; font-size: 0.512rem; color: #fff;}
+.v4-bonus-num big{font-size: 1.067rem;}
+
+.v4-project-2{ margin-top: 0.427rem; overflow: hidden; font-size: 0.597rem; background: #fff;}
+.v4-project-2 li{ border-bottom: 1px solid #E5E5E5; height: 2.987rem; padding:0 0.64rem;}
+.v4-project-2 li p { line-height: 0.8rem;}
+.v4-project-2 li p span{ width: 33.33%; display: inline-block; font-size: 0.597rem; color: #222222;}
+.v4-project-2 li p:nth-child(1) span:last-child{ color:#F74541;}
+.v4-project-2 li p:last-child span{ color: #999999; font-size: 0.512rem; line-height: 1.2rem;}
+.v4-project-2 li p:first-child{ padding-top:0.64rem;}
+.v4-project-2 li:last-child{ border: none;}
+.v4-pro-icon{ display: inline-block; font-style: normal; font-size: 0.384rem; height: 0.555rem; line-height: 0.65rem; border:1px solid #cccccc; color: #999999; margin-left: 0.192rem; border-radius: 0.085rem; padding:0 0.1rem;}
+.v4-pro-icon.blue{ border-color:#4298FE; color: #4298FE;}
+.v4-pro-main{ display: none;}
+.v4-project-2 li a{ display: block;}
+.v4-load-more{text-align: center;color: #222;font-size: 0.512rem;line-height:1.8rem;}
+
+/*项目详情*/
+.v4-pro-detail{ background: #fff;}
+.v4-pro-detail-1 li h4{ font-size: 0.597rem; color: #222222;}
+.v4-pro-detail-1 li { height: 1.92rem; padding: 0 0.64rem; font-size: 0.555rem; color: #666; line-height: 1.92rem;}
+.v4-pro-detail-1 li:nth-child(even){ background: #F8F8F8;}
+.v4-pro-detail-1 li span{ display: inline-block; float: right; color: #222222;}
+.v4-pro-detail1{ background: #fff; margin-top: 0.427rem;}
+.v4-pro-detail1 h4{ height: 1.92rem; line-height: 1.92rem; border-bottom: 1px solid #EBEBEB; padding: 0 0.64rem; color: #222222; font-size: 0.597rem;}
+.v4-pro-detail1-1{ height: 2.987rem; padding: 0 0.64rem;}
+.v4-pro-detail1-1 p{ color: #999999; font-size: 0.555rem; line-height: 1rem;}
+.v4-pro-detail1-1 p span{ display: inline-block;float:right; color: #999999; font-size: 0.555rem;}
+.v4-pro-detail1-1 p:first-child{ color: #00C910;  font-size: 0.597rem; padding-top: 0.55rem;}
+.v4-pro-detail1-1 p:first-child span{color: #222222;}
+.v4-pro-detail2{text-align: center; height: 2.56rem; line-height: 2.56rem; font-size:0.512rem; }
+.v4-pro-detail2 a{color: #999999; position: relative;}
+.v4-pro-detail2 a:after{position: absolute;content: "";width:0.299rem;height:0.299rem; top:0.15rem; border: 1px solid #999999;transform: rotate(-45deg);-webkit-transform: rotate(-45deg);border-width: 0 1px 1px 0;}
+
+
+
+
+
+
+
+
+

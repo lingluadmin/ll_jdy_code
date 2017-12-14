@@ -1,0 +1,45 @@
+/*flex*/
+.flex-box {display: -webkit-box;  display: -webkit-flex;  display: -ms-flexbox;  display: flex;}
+.box-align{-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.box-pack{-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}
+/*top*/
+.v4-top{position:relative;padding:0 0.64rem 0 0.555rem; height:1.92rem;background: #4298FE;color: #fff;font-size:0.597rem;}
+.v4-top .v4-user{text-align: right;}
+.v4-top .v4-user>a,.v4-top .v4-user>a:active{color: #fff;font-size:0.597rem;vertical-align: middle;display: inline-block;line-height:1.92rem;}
+.v4-top-logo{width: 3.691rem;height: 0.853rem;}
+.v4-top .v4-filter{position: absolute;top: 0;font-size: 0.65rem; vertical-align: middle; height:1.92rem;line-height:2rem; overflow:hidden; left:2.2rem;color:#fff;}
+/*.v4-bottom{position: fixed;bottom: 0;}*/
+/*page head*/
+.v4-page-head{padding:0 0.64rem 0 0.64rem;overflow: hidden;}
+.v4-page-head .v4-back{display:block;width: 1.5rem;height:100%;background:url(/static/weixin/images/wap4/icon-arrow-left.png) left center no-repeat; background-size:0.32rem 0.512rem;font-size: 0;}
+.v4-page-head .v4-page-title{font-size: 0.725rem;}
+/*side-nav*/
+.v4-mask{position: fixed;z-index: 1000;top:0;right:0;width: 100%;height: 100%;background: rgba(0,0,0,0.7);display: none;}
+.v4-side-wrap{position:fixed;top:0;right:-12.8rem;z-index:1001;width:12.8rem;height: 100%;overflow-y:auto;box-sizing: border-box;}
+.v4-side-wrap.show{right: 0;-webkit-transition: all 0.35s;-moz-transition: all 0.35s;-o-transition: all 0.35s;transition: all 0.35s;}
+.v4-profile{padding-left: 0.875rem;background: #fff;}
+.v4-profile-avatar{display: block;width: 2.133rem;}
+.v4-profile-user{padding: 1.493rem 0 1.067rem 0.256rem;}
+.v4-profile-info{padding-left: 0.747rem;}
+.v4-profile-info>h4{line-height: 0.896rem;font-size: 0.64rem;color: #222;}
+.v4-profile-info>p{line-height: 0.704rem;font-size: 0.512rem;color: #999;}
+.v4-profile-account>li{height: 2.56rem;border-bottom:1px solid #EEEEEE;padding:0 0.427rem 0 0.256rem;}
+.v4-profile-account>li:first-child{height: 2.005rem;}
+.v4-profile-account>li:last-child{border-bottom:0;}
+.v4-profile-account>li>a{width:100%;display: block;}
+.v4-profile-account>li>a>p{font-size: 0.683rem;color: #222;line-height: 0.96rem;}
+.v4-profile-account>li>a>span{display: block;font-size: 0.512rem;color: #999;line-height: 0.704rem;}
+.v4-profile-account>li.arrow>a{background:url(/static/weixin/images/wap4/index/icon-arrow-right.png) right center no-repeat; background-size:0.299rem 0.491rem;}
+.v4-side-nav{background: #EFEFF4;padding:0.661rem 0 1.109rem 1.131rem;}
+.v4-side-nav>a{display: block;width: 100%;height:2.176rem;font-size: 0.597rem;color: #222;line-height: 2.176rem;}
+.v4-side-nav>a>img{width:0.64rem;height:0.555rem; vertical-align: middle;margin-right: 0.512rem;}
+/*bottom fixed*/
+.v4-bottom-fixed{padding:0 0.64rem; width: 100%; height: 2.347rem; line-height: 2.347rem; background:rgba(0,0,0,0.8); position: fixed; bottom:0; z-index:999;color: #fff;box-sizing: border-box;}
+.v4-bottom-fixed img{width: 1.451rem;height: 1.451rem;display: block;}
+.v4-bottom-fixed hgroup{padding-left: 0.469rem;}
+.v4-bottom-fixed hgroup>h6{font-size: 0.64rem;line-height: 0.896rem;}
+.v4-bottom-fixed hgroup>p{font-size: 0.469rem;line-height: 0.64rem;}
+.v4-btn-download{ padding:0 0.384rem; height:1.28rem; line-height: 1.28rem;background: #4298FE; font-size:0.64rem; color: #ffffff; display: inline-block;  text-align: center; border-radius: 0.085rem;}
+.v4-btn-download.disabled{background:#cdcdcd;}
+/*load more*/
+.v4-load-more {text-align: center;color: #222;font-size: 0.512rem;line-height: 1.8rem;}

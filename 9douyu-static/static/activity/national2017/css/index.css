@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xia.lili@9douyu.com (you@example.org)
+ * @date    2017-9-21
+ * @version $Id$
+ */
+body{background-color: #db3815;}
+.national-banner{width: 100%; height: 440px; overflow: hidden; background:url('/static/activity/national2017/images/banner.jpg') top center no-repeat; background-size: 1920px 440px;}
+.national-banner p{width: 776px; margin:115px 0 0; text-align: right; font-size: 26px; color: #fff; transform:rotate(-7deg);
+-ms-transform:rotate(-7deg); 	/* IE 9 */
+-moz-transform:rotate(-7deg); 	/* Firefox */
+-webkit-transform:rotate(-7deg); /* Safari 和 Chrome */
+-o-transform:rotate(-7deg); 	/* Opera */}
+.national-banner p span{ display: inline-block;transform:skewX(-20deg);
+-ms-transform:skewX(-20deg); 	/* IE 9 */
+-moz-transform:skewX(-20deg); 	/* Firefox */
+-webkit-transform:skewX(-20deg); /* Safari 和 Chrome */
+-o-transform:skewX(-20deg); 	/* Opera */}
+.national-wrap{width: 1054px; margin-left: auto; margin-right: auto;}
+.national-box{background-color: #a80a0a;border-radius: 5px; margin-bottom: 20px; padding: 22px 0 50px;}
+.national-title{width: 368px; height:70px; margin:0 auto; text-align: center; line-height: 78px; font-size: 26px; color:#e03714;background:url('/static/activity/national2017/images/title1.png') top center no-repeat; background-size: 100%; }
+.national-title.title2{background-image:url('/static/activity/national2017/images/title2.png');  }
+.national-title.title3{line-height: 72px; background-image:url('/static/activity/national2017/images/title3.png');  }
+.national-info{padding:30px 0 40px; text-align: center; font-size: 18px; color:#fae9aa; line-height: 26px;}
+.national-rate{overflow: hidden; padding-left: 15px;}
+.national-rate a{display:block; float: left; margin-left: 36px; width: 293px; height:196px; color:#ff4600; background:url('/static/activity/national2017/images/rate-bg.png') top center no-repeat; background-size: 100%;}
+.national-rate a p{padding-left: 34px; width: 174px; text-align: center; font-size: 20px;}
+.national-rate-num{padding:37px 0 20px 34px; letter-spacing: -2px; font-family: Arial; line-height: 80px; width: 174px; text-align: center; color:#ff4600; font-size: 49px;}
+.national-rate-num big{font-size: 78px; }
+
+.national-cash{padding-left: 40px;}
+.national-cash ul{overflow: hidden}
+.national-cash li{width: 178px; float: left; padding-bottom: 30px; margin-right: 20px; text-align: center; color:#fff;}
+.national-cash li a{color:#fff; width: 178px; height:150px; font-size: 26px; margin-bottom: 10px; display:block;background:url('/static/activity/national2017/images/bonus-bg.png') top center no-repeat; background-size: 100%; }
+.national-cash li a p{padding-top: 78px; color:#fff3bf ; line-height: 62px;letter-spacing: -1px; font-family: Arial; }
+.national-cash li a big{font-size: 50px;}
+.national-cash-info{font-size: 16px; line-height: 20px; color:#fdf2bd;}
+
+.national-pro{padding: 10px 0 45px;}
+
+.national-pro{}
+.national-pro ul{padding-top: 35px;}
+.national-pro li{background-color: #fffced; border-radius: 5px; margin-bottom: 22px; overflow: hidden;}
+.national-pro-title{height:50px; line-height: 50px; color:#252525; font-size: 20px; padding-left: 36px; background-color: #fef6d7;}
+.national-pro-title span{margin-right: 15px;}
+
+.national-pro-main p{margin:35px 0 0 6px;float: left;text-align: center;font-size: 26px; position:relative;}
+.national-pro-main p span{display:block;margin-top:0px;font-size: 14px; color: #646464;}
+.national-pro-main p em{display:block;height:40px;padding-top:8px; color: #ff4e00; font-size: 22px;}
+.national-pro-main .p1{width:280px;}
+.national-pro-main .p1 strong{height:48px;display:block;font-size: 29px;font-weight: bold; color: #fd5d0d;}
+.national-pro-main .p1 strong big{font-size: 58px;}
+.national-pro-main .p2,.national-pro-main .p3{width:226px;}
+.national-pro-main{ overflow: hidden; padding:10px 16px 30px;}
+.national-pro-main .p2:before{ height: 36px; content: ""; border-left: 1px solid #b1afa7; position: absolute; left: 3px; top: 16px;}
+
+.page-project-btn,.page-project-btn:visited{display:inline-block;margin:8px auto 0 10px;width:153px;height: 48px;line-height:48px;background-color: #f34304;text-align: center;color:#fff;font-size:24px; border-bottom: 3px solid #fb8e01; border-radius: 5px; -webkit-border-radius: 5px;}
+.page-project-btn:hover,.page-project-btn:active{background-color: #ff560c; color:#fff;}
+.page-project-btn.disable{ background-color: #909090; border-color: #b0b0b0;}
+.national-rule{background-color: #9c0c0b; padding:40px 0 50px; margin-top: 45px;}
+.national-rule-main{padding:0 26px; color:#f47551; line-height: 33px; font-size: 18px;}
+.national-rule-main h3{text-align: center; font-size: 26px; margin-bottom: 35px;}
+
+.national-pop{text-align: center; padding-top: 40px;}
+.national-pop h5{font-size: 24px; color:#000; margin-bottom: 30px;}
+.national-pop p{font-size: 18px; color:#999; margin-bottom: 40px;}
+
+.national-pop2{text-align: center; position:fixed; width: 342px; height:333px; z-index: 999; left: 50%; top: 50%; margin:-167px 0 0 -176px; border-radius: 10px; -webkit-border-radius: 10px;  background:url('/static/activity/national2017/images/pop-bg1.png') top center no-repeat;}
+.national-pop2 h5{font-size: 28px; color:#fee600;padding:30px 0;}
+.national-pop-close{position:absolute; cursor: pointer; right: 0; top: -60px; width: 42px; height:42px;background:url('/static/activity/national2017/images/pop-close.png') top center no-repeat; background-size: 100%;}
+.national-pop-close:after{position:absolute; content:''; width: 1px; height:18px; top:100%; left: 50%; background-color: #fff;}
+
+.national-pop3{text-align: center; position:fixed; color:#fff; width: 408px; height:487px; z-index: 999; left: 50%; top: 50%; margin:-204px 0 0 -244px; border-radius: 10px; -webkit-border-radius: 10px;  background:url('/static/activity/national2017/images/pop-bg2.png') top center no-repeat; background-size: 100%;}
+.national-pop3 .national-pop-close{right:32px;}
+.national-pop3 h5{font-size: 28px; padding:190px 0 30px;}
+.national-pop3-txt{ color:#fde600; font-size: 40px; line-height: 100px;}
+.national-pop3-txt big{font-size: 95px;}
+
+.national-pop-bonus{ width: 280px; height:184px; margin:0 auto; color:#fb5712; font-size: 22px; background:url('/static/activity/national2017/images/pop-bonus.png') top center no-repeat; background-size: 100%; }
+.national-pop-rate-num{padding:32px 0 14px 40px; letter-spacing: -2px; font-family: Arial; line-height: 80px; width: 206px; text-align: center; color:#fb5712; font-size: 46px;}
+.national-pop-rate-num big{font-size: 75px; }
+
+.national-pop-mask{position: fixed;left: 0;top: 0;z-index: 99;width: 100%;height: 100%; background-color: rgba(0,0,0,.8);}
+
+
+

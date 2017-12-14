@@ -1,0 +1,65 @@
+/**
+    国庆节活动css 样式
+**/
+
+body{background: #d63d13;}
+
+.page-banner{position:relative;width: 100%;height: 14.315rem;background: url('../images/page-banner.jpg') top center no-repeat; background-size: cover;}
+.page-time{position:absolute;font-size: 0.683rem;text-align: right;transform:rotate(-9deg);width: 6.4rem;right:1.107rem;top:2.987rem;color: #fff;text-shadow: 0.064rem 0 0 #ca5b38 inset;font-style: italic;font-weight: bold;font-family: "PingFang SC";}
+.page-box{position:relative;margin:0 0.213rem 0.555rem 0.213rem;padding:0.213rem 0.341rem;border-radius: 0.085rem;background: #a90b0a;}
+.page-box.box1{margin-top: -2.667rem;}
+.page-title{width: 8.043rem;height: 1.579rem;line-height: 1.764rem; margin:0.299rem auto;text-align: center;color: #cf4629;font-size:0.555rem; background: url('../images/page-title1.png') center top no-repeat; background-size: cover;}
+.page-title.title1{line-height: 1.9rem;}
+.page-title.title2{height: 1.493rem ;background: url('../images/page-title2.png') center top no-repeat; background-size: cover;}
+.page-title.title3{height: 1.664rem;background: url('../images/page-title3.png') center top no-repeat; background-size: cover;}
+.page-des{text-align: center;line-height: 1.152rem;color: #f7e9b1;font-size: 0.427rem;}
+.page-coupons{margin:0.555rem auto 0.725rem -0.149rem;}
+.page-coupons>a{display: block;float: left;width: 4.843rem;height: 3.179rem;background: url('../images/page-coupons.png') center top no-repeat; background-size: cover;color: #fc4a04;margin-left: 0.149rem;}
+.page-coupons .text1{float: left;width: 3.456rem;text-align: center;}
+.page-coupons .text1>p{width: 2.88rem;margin:0 0.277rem 0 0.555rem;background: url('../images/page-coupons-line.png') center bottom no-repeat; background-size: 2.88rem 0.256rem;padding-top: 0.64rem;padding-bottom:0.32rem;line-height: 1;}
+.page-coupons .text1>p>big{font-size:1.28rem;font-family: "PingFang SC";font-weight: bold;}
+.page-coupons .text1>span{font-size: 0.384rem;display: block;line-height: 0.768rem;width: 2.88rem;margin:0 0 0 0.555rem;}
+.page-coupons .text2{float: right;width: 0.896rem;height:2.347rem;text-align: center;margin-right: 0.256rem;font-size: 0.469rem;margin-top: 0.45rem;line-height: 1.1;border-left:1px solid #ffdfb3;padding:0.193rem 0;box-sizing: border-box;}
+.page-lucky-money{text-align: center;margin-top: 0.555rem;}
+.page-lucky-money>a{display: inline-block;color: #fff3bf;margin:0 auto 0.576rem;width:4.693rem;}
+.page-lucky-money>a>p{font-size: 0.384rem;line-height: 0.896rem;}
+.page-lucky-money>a>.par{width: 4.352rem;height: 3.669rem;margin:0 auto; padding-top: 2.1rem; background: url('../images/page-lucky-money.png') center top no-repeat; background-size: cover;box-sizing: border-box;font-size: 0.704rem;}
+.page-lucky-money>a>.par>big{font-size: 1.067rem;font-family: "PingFang SC";font-weight: bold;}
+.page-project{display:block;margin:0 0.427rem 0.576rem;height:5.099rem;border-radius: 0.085rem;background: #fff;overflow: hidden;}
+.page-project>h2{padding-left: 0.533rem; line-height: 1.557rem;background: #fff5d7;font-size: 0.576rem;color: #252525;}
+.page-project>table{width: 100%;font-size: 0.469rem;color: #222;text-align: center;}
+.page-project>table td.td1,.page-project>table td.td3{width: 22%}
+.page-project>table td.td1{padding-left: 0.32rem;}
+.page-project>table td.td2{width: 25%;position: relative;}
+.page-project>table td.td2:after,.page-project>table td.td2:before{position: absolute;content:"";top:1.387rem; height: 0.704rem;background: #b2b1a9;width:1px;font-size: 0;}
+.page-project>table td.td2:before{left: 2px;}
+.page-project>table td.td2:after{right: 3px;}
+.page-project>table td p{height:0.939rem;font-size: 0.597rem;color: #fe4600;margin-top: 0.683rem;line-height:1.28rem;}
+.page-project>table td big{font-size: 0.939rem;}
+.page-project>table td span{display: block;margin-top:0.299rem;}
+.page-project-btn{display:block;margin:0.833rem auto 0; width: 3.264rem;height: 1.088rem;line-height:1.088rem; text-align: center;color: #fff;font-size: 0.512rem;border-radius: 0.085rem;background: #f34405;border:0;}
+.page-project-btn.disabled{background: #909090;}
+.page-rule{background: #9c0c0b;padding:0 0.555rem 1.237rem;margin-top: 0.789rem;font-size: 0.469rem;color: #f87a52;}
+.page-rule h2{line-height: 1.749rem;margin-bottom: 0.213rem;font-size: 0.555rem;text-align: center;}
+.page-rule p{line-height: 0.725rem;}
+.page-layer{display: none;}
+.page-mask{position: fixed;left:0;right:0;top:0;bottom:0;z-index:1;background: rgba(0,0,0,.8);}
+.page-pop-close{position: absolute;right:0.427rem;top:-44px;z-index:1;width:24px; height:24px;border-radius: 100%;border:1px solid #fff;background: rgba(0,0,0,0.3) url('../images/page-pop-close.png') center center no-repeat;background-size: 0.427rem; font-size: 0;box-sizing: border-box;}
+.page-pop-close:after{position: absolute;content: "";left:11px;z-index:1;bottom:-21px;;border-left:1px solid #fff;height: 21px;}
+.page-pop-close1{position:absolute;right:0.213rem;top:0.213rem; width: 24px;height: 24px;background: url('../images/close1.png') center center no-repeat;background-size: 100%;font-size: 0;}
+.page-pop{position: fixed;left:50%;top:50%;z-index:3;transform: translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);text-align: center;}
+.page-pop.page-pop-lucky{width: 12.117rem;height: 12.715rem;background: url('../images/page-pop-lucky-money.png') center top no-repeat; background-size: cover;}
+.page-pop.page-pop-lucky .text1{font-size: 0.853rem;color: #fff;line-height: 1;padding-top:5.973rem;}
+.page-pop.page-pop-lucky .text2{color: #fde600;line-height: 1;padding-top: 1.365rem;font-size: 1.28rem;}
+.page-pop.page-pop-lucky .text2 big{font-size: 2.176rem;font-family: "PingFang SC";font-weight: bold;}
+.page-pop.page-pop-coupon{width: 10.667rem;height: 11.008rem;background:#eb4834;border-radius: 0.107rem;color: #f95712;}
+.page-pop.page-pop-coupon .info{width:8.747rem;height:5.739rem;margin:1.707rem auto 0; background: url('../images/page-pop-coupon.png') center top no-repeat; background-size: 100%;box-sizing: border-box;}
+.page-pop.page-pop-coupon .text1{font-size: 0.853rem;color: #fde600;line-height: 1;padding-top:1.28rem;}
+.page-pop.page-pop-coupon .text2{padding-top: 1.152rem;font-size: 1.109rem;line-height: 1;}
+.page-pop.page-pop-coupon .text2 big{font-size: 1.92rem;font-family: "PingFang SC";font-weight: bold;}
+.page-pop.page-pop-coupon .text3{padding-top: 1.152rem;font-size: 0.683rem;}
+.page-pop.page-pop-coupon .page-pop-close{right: 0;}
+.page-pop.page-pop-fail{width: 13.227rem;height: 8.107rem;background: #fff;border-right: 0.085rem;}
+.page-pop.page-pop-fail .text1{font-size: 0.811rem;color: #f55832; padding:1.237rem;line-height: 1;}
+.page-pop.page-pop-fail .text2{line-height: 1.067rem;font-size: 0.64rem;color: #666;}
+.pop-btn-confrim{position: absolute;bottom: 0;left:0;right:0;height:1.92rem;line-height: 1.92rem;text-align: center;font-size: 0.725rem;color: #4298fe;border-top: 1px solid #eee;}

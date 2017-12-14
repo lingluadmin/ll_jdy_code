@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+.recharge-bank{background-color: #fff; padding: 0 0.64rem; margin-bottom: 0.427rem; height:2.347rem; line-height: 2.347rem;  width: 100%; box-sizing: border-box;   font-size: 0.683rem; color:#222;}
+.recharge-bank img{height: 0.853rem; vertical-align:middle;}
+.recharge-bank span{margin-left: 0.597rem;vertical-align:middle; }
+
+.recharge-pay{background-color: #fff;margin-bottom: 0.427rem; height:2.347rem; line-height: 2.347rem;  width: 100%; box-sizing: border-box;   font-size: 0.683rem; color:#4298fe; position: relative;}
+.recharge-pay a,.recharge-pay a:visited{display:block; line-height: 2.347rem;color:#4298fe;padding: 0 0.64rem; }
+.recharge-pay i{position: absolute;right: 0.64rem; top:0; width: 0.32rem;height: 100%;vertical-align: middle;background: url(/static/weixin/images/wap4/index/icon-arrow-right.png) right center no-repeat;background-size: 0.299rem 0.491rem;font-size: 0;}
+.recharge-pay ins{display: inline-block; width: 0.939rem; height:0.64rem; margin-right: 0.427rem; vertical-align: middle;background: url(/static/weixin/images/wap4/recharge/bank.png) right center no-repeat;background-size: 100%;}
+.recharge-main{ background-color: #fff; padding:0 0.64rem 0.619rem;}
+.recharge-main p{font-size:0.683rem; color:#333;padding:0.533rem 0 0.853rem; }
+.recharge-main-input{height:1.493rem; line-height: 1.493rem; font-size: 1.067rem; position:relative;}
+.recharge-main-input span{ color:#222; vertical-align: middle; margin-right: 0.213rem;}
+.recharge-main-input ins{color:#4298FE; font-size: 0.597rem;position:absolute; right: 0; top: 0.171rem; text-decoration: none;}
+.recharge-input{ font-size: 1.067rem;vertical-align: middle; width: 10.88rem; color:#222; display:inline-block; height:1.493rem; line-height: 1.493rem;}
+.recharge-info{background-color: #fff; margin-bottom: 1.067rem; border-top: 1px solid #eee; padding:0 0.64rem; height:1.92rem; line-height: 1.92rem; text-align: right; font-size: 0.555rem; color:#999;}
+.recharge-info span{color:#F74541; margin-left: 0.213rem;}
+.v4-input-msg{font-size: 0.512rem;line-height: 0.704rem;color: #F74541;padding: 0 0.64rem 0.64rem;text-align: center;}
+
+/*按钮*/
+a.v4-btn,input.v4-btn{border:1px solid #4298FE; height:2.091rem; width: 14.72rem; margin:0 auto; box-sizing:border-box; font-size:0.725rem; text-align: center; line-height: 2.091rem; display: block; border-radius:0.085rem; background-color: #4298FE; color: #fff;}
+a.v4-btn.disabled,input.v4-btn.disabled{background-color: #999999;border-color: #999999;}
+a.v4-btn.v4-confirm-btn{width: 12rem !important;}
+/*弹窗*/
+.v4-pop{display:none;}
+.v4-pop-mask{position: fixed; background-color: rgba(0,0,0,.7); left: 0; right: 0; top: 0; bottom: 0; z-index: 99;}
+.v4-pop-main{position: absolute; left: 1.173rem; right:1.173rem; top: 4.25rem; z-index: 100; background-color: #fff; border-radius:0.213rem;}
+.v4-pop-recharge-title{position:relative;width: 100%; height:3.072rem; line-height: 3.072rem; text-align: center; color:#fff; font-size: 0.853rem;background: url("/static/weixin/images/wap4/recharge/pop-title.png") no-repeat 0 0; background-size:100%;}
+.v4-pop-recharge-title>a{position: absolute;width: 1rem;height: 1rem;right:0.32rem;top:0;font-size: 0;background: url("/static/weixin/images/wap4/recharge/close.png") no-repeat right 0.32rem; background-size:0.555rem;}
+.v4-pop-recharge-box{text-align: center; padding:1.067rem 0; color:#222; font-size: 0.597rem; line-height: 1.408rem;}
+.v4-pop-recharge-box span{color:#F74541;}
+.v4-pop-recharge-box big{font-size: 0.853rem;}
+.v4-pop-recharge-box small{font-size: 0.512rem;color:#999;}
+.v4-pop-btn{width: 100%; border-top: 1px solid #eee; overflow: hidden;}
+.v4-pop-btn a,.v4-pop-btn a:visited{display:block; color:#222; float: left; width: 50%; box-sizing: border-box; text-align: center; height:2.048rem; line-height: 2.048rem; font-size: 0.725rem;}
+.v4-pop-btn a:last-child{border-left: 1px solid #eee; color:#4298FE;}
+
+.v4-pop-tpw-title{ position: relative; line-height: 1.984rem;text-align: center; line-height: 1.984rem; border-bottom: 1px solid #E5E5E5;}
+.v4-pop-close{ display:block; position:absolute; top:0; right:0; width: 1rem; height: 2rem;background: url("/static/weixin/images/wap4/confirm/v4-close.png") no-repeat 0 0.683rem ; background-size: 0.555rem;}
+
+.v4-pop-text2>a{color: #50ABFE;}
+
+.v4-pop-pay{position: fixed; z-index: 100; bottom:-19.2rem; left: 0; right:0; background-color: #fff; padding-top: 1.92rem;-webkit-transition: all 0.35s;-moz-transition: all 0.35s;-o-transition: all 0.35s;transition: all 0.35s;height:17.067rem;overflow-y:auto;}
+.v4-pop-pay.show{bottom:0;}
+.v4-pop-pay-box{padding:0.64rem 0.64rem 0.213rem; border-top: 1px solid #eee;}
+.v4-pop-pay-box p{margin-bottom: 0.213rem;}
+.v4-pop-pay-box big{font-size: 0.683rem; color:#333;}
+.v4-pop-pay-txt{font-size: 0.512rem; color:#999; overflow: hidden;}
+.v4-pop-pay-txt em{float: right;}
+.v4-pop-pay-box img{vertical-align: middle;}
+.v4-pop-pay-box .pay1{width: 3.627rem; height:1.024rem;}
+.v4-pop-pay-box .pay2{width: 3.627rem; height:0.811rem;}
+.v4-pop-pay-box .pay3{width: 2.752rem; height:0.981rem;}
+.pay-rec{display:inline-block; width:1.451rem; height:0.768rem; margin-left: 0.427rem; line-height: 0.768rem; vertical-align: middle; text-align: center; font-size: 0.512rem; text-decoration: none; color:#F74541; border:1px solid #F74541; border-radius: 0.107rem;}
+.none{display:none;}
+
+
+::-webkit-input-placeholder {
+    color: #ccc !important;
+    font-size:0.597rem;
+}
+:-moz-placeholder {
+    color: #ccc !important;
+    font-size:0.597rem;
+}
+::-moz-placeholder {
+    color: #ccc !important;
+    font-size:0.597rem;
+} /* for the future */
+:-ms-input-placeholder {
+    color: #ccc !important;
+    font-size:0.597rem;
+}

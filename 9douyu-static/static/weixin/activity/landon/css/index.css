@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+body{background-color: #18223a; padding-bottom: 4.267rem;font-weight:normal;}
+
+.landon-top{padding:0 0.64rem; height: 2.133rem; line-height: 2.133rem; background-color: #fff;}
+.landon-logo{float: left; display:block; width: 2.624rem;}
+.landon-logo>img{width: 2.624rem; display:block; margin-top: 0.704rem;}
+.landon-login{float: right; font-size: 0.512rem; color: #999;}
+.landon-login a{color: #048af9;}
+
+.landon-banner{}
+
+.landon-box{background-color: #fff; margin:0 0.64rem 0.896rem; border-radius: 0.107rem;position: relative; padding-bottom: 0.939rem;}
+.landon-box.register{top: -0.64rem;}
+.unregister{text-align: center; top: -0.64rem; padding-top: 1.28rem; font-size: 0.683rem; color: #048af9; line-height: 1.173rem; color: #048af9;}
+.unregister .red{color: #f4403b;}
+.unregister img{width: 4.779rem; margin:0.853rem 0 1.173rem;}
+.landon-custody{text-align: center;padding:0.768rem 0; border-bottom: 1px solid #d2d2d2; }
+.landon-custody>img{width: 0.597rem; vertical-align: middle; margin-right: 0.427rem;}
+
+.landon-regitster{padding:0 1.707rem;}
+.v4-login{overflow: hidden;}
+.v4-login li {width: 100%;display: block;position: relative; padding-top: 0.427rem;}
+.v4-login li input[type="text"]:focus,.v4-login li input[type="password"]:focus{ border-bottom: 1px solid #50a9f5;}
+.v4-login li input[type="text"]:focus.error,.v4-login li input[type="password"]:focus.error{ border-bottom: 1px solid #f95e5a;}
+.v4-reg-input{border: 0;width:100%;height:1.707rem;display: block;font-size: 0.597rem;color: #222222;outline: 0;font-family: arial;border-bottom: 1px solid #d2d2d2;}
+.v4-reg-input.error{ border-bottom: 1px solid #f95e5a;}
+.v4-reg-code{  position: absolute; width:3.968rem;height:1.28rem; top: 0.504rem; right: 0px;}
+.v4-input-code{width:3.968rem; height:1.109rem;position: absolute;top: 0.604rem; right: 0; line-height:0.811rem; text-align: center;  font-size: 0.512rem; color: #fff;background-color: #2faafc; border:none; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;}
+.v4-input-code.disable,.v4-input-btn.disable{background-color: #c2c0c0; cursor:not-allowed ;}
+.v4-input-msg{font-size: 14px; color: #f95e5a; margin:0.533rem 0;}
+.v4-input-btn{ width:100%; height:1.493rem;line-height: 1.493rem; border:none; font-size: 0.683rem; color: #fff; background-color: #048af9;border-radius: 1.493rem; -webkit-border-radius: 1.493rem; -moz-border-radius: 1.493rem; }
+.v4-input-agree{font-size: 0.512rem; color: #666; margin: 0.512rem 0 0;}
+.v4-input-agree input[type='checkbox']{margin-right: 5px; vertical-align: middle;}
+
+.v4-reg-icon{position:absolute;top:1.125rem; right:0.171rem; width: 0.725rem; height:0.555rem; background-image:url('/static/weixin/activity/landon/images/eye-off.png');background-position:  0 0;background-repeat:no-repeat; background-size: 100%;}
+.v4-reg-icon.open{background-image:url('/static/weixin/activity/landon/images/eye-on.png'); top: 1rem;}
+
+a.v4-block-btn{ width:12.8rem; margin:0 auto;text-align: center; height:1.664rem;line-height: 1.664rem; display: block; font-size: 0.683rem; color: #fff; background-color: #048af9;border-radius: 1.664rem; -webkit-border-radius: 1.664rem; -moz-border-radius: 1.664rem; }
+
+.landon-title{position:relative; top: -0.298rem; width:7.104rem; height:1.195rem; line-height: 1.195rem; text-align: center; font-size: 0.683rem; color: #fff; margin:0 auto; background:url('/static/weixin/activity/landon/images/title.png') 0 0 no-repeat; background-size: 100%; }
+.landon-progress{text-align: center; padding-top: 1.28rem;}
+.landon-progress>img{width: 11.925rem; height:9.216rem;}
+.landon-bonus{text-align: center; padding-top: 0.853rem;}
+.landon-bonus>img{width: 11.307rem;}
+.landon-btn{display:block; width: 11.307rem; height:1.493rem; line-height: 1.493rem; text-align: center; color: #fff;font-size: 0.683rem;background:-moz-linear-gradient(top,#ff9600,#ff5400);
+background:-webkit-gradient(linear,0 50%,100% 50%,from(#ff9600),to(#ff5400));
+background:-webkit-linear-gradient(top,#ff9600,#ff5400);
+background:-o-linear-gradient(top,#ff9600,#ff5400);  border-radius: 1.493rem; -webkit-border-radius: 1.493rem; margin:0.939rem auto 0;}
+.landon-btn.disable{background:#bcbcbc;}
+
+
+.landon-project{overflow: hidden; padding-top: 1.067rem; text-align: center; font-size: 0.555rem; color: #666;}
+.landon-project li{ display:inline-block; width: 27%; line-height: 1.067rem; }
+.landon-project li big{font-size: 0.96rem;}
+.landon-project li .red{color: #f4403b;}
+.landon-project li .black{color: #333;}
+
+.landon-advantage{background-color: #fff; padding:0 2.347rem;}
+.landon-advantage h3{font-size: 0.683rem; color: #000; padding:0.853rem 0; text-align: center;}
+.landon-advantage-item{text-align: center; font-size: 0.555rem; line-height: 0.939rem; color: #333; padding-bottom: 0.853rem;}
+.landon-advantage-item strong{font-size: 0.64rem; color: #000; font-weight: 400;}
+.landon-advantage-item p:nth-child(3){text-align:  justify; margin-top: 0.427rem;}
+.landon-advantage-item img{width: 2.325rem;}
+
+.landon-hotline{text-align: center; color: #999; font-size: 0.512rem; padding:0.853rem 0;}
+.landon-fixed{position:fixed; bottom:0; left: 0; right: 0; padding:0.64rem 0.853rem;line-height: 1.088rem; color: #fff; font-size: 0.555rem; background-color: rgba(0,0,0,.6)}
+.landon-fixed-btn{ float: right; vertical-align: top; width: 3.008rem; height:1.067rem; line-height: 1.067rem; text-align: center; color: #fff; background-color: #048af9; font-size: 0.555rem; border-radius: 0.107rem; -webkit-border-radius: 0.107rem;}
+
+.landon-success{text-align: center; padding:4.267rem 0 0; font-size: 0.768rem; color: #048af9;}
+.landon-success img{width: 10.56rem; height:5.461rem; margin:1.408rem 0 3.328rem;}
+
+/*pop*/
+.pop-wrap{display:none;}
+.pop-mask{position:fixed;z-index:1;width: 100%;height: 100%;left:0;top:0;right:0;bottom:0;background: rgba(0,0,0,.7);}
+.pop{position: fixed;z-index:2;text-align: center; width: 11.307rem;height:12.267rem;color: #333; font-size: 0.555rem; left: 50%;top:50%;transform: translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);background-color: #fff; border-radius: 0.427rem;-webkit-border-radius: 0.427rem;}
+.pop-close{position:absolute;z-index: 3;width:0.661rem;height:0.661rem;top:0.427rem;right:0.427rem;background: url("/static/weixin/activity/landon/images/pop-close.png")0 0 no-repeat;background-size: 100%;font-size: 0;}
+.pop-text{padding:2.091rem 0 1.024rem;}
+.pop-phone{width: 3.2rem; }
+.pop-btn{display:block; width: 9.259rem; height:1.621rem; background-color: #048af9; color: #fff; line-height: 1.621rem; margin:1.28rem auto 0;  border-radius: 1.621rem;  -webkit-border-radius: 1.621rem; text-align: center; font-size: 0.725rem;}
+
+.pop-img{position: fixed;z-index:2;text-align: center; width: 14.699rem;height:10.453rem; font-size: 0.555rem; left: 50%;top:50%;transform: translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);}
+.pop-img img{width:14.699rem; }
+.pop-close2{position:absolute;z-index: 3;width:0.96rem;height:0.96rem;top:0;right:0.384rem;background: url("/static/weixin/activity/landon/images/pop-close2.png")0 0 no-repeat;background-size: 100%;font-size: 0;}
+
+

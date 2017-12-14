@@ -1,0 +1,34 @@
+@charset "utf-8";
+.v4-header{padding: 0 0.64rem;height: 1.92rem;line-height: 1.92rem; background: #4298FE;color: #fff; position:relative;}
+.v4-header-back{position: absolute; left: 0.64rem; top:0; width: 1.5rem;height: 100%;background: url(/static/weixin/images/wap4/icon-arrow-left.png) left center no-repeat;background-size: 0.32rem 0.512rem;font-size: 0;}
+.v4-header h1{text-align: center;font-size:0.725rem;}
+
+.v4-bonus-nav{width: 100%; overflow: hidden; background-color: #fff;}
+.v4-bonus-nav li{width: 33.33%; float: left; text-align: center;color: #222; line-height: 1.877rem;}
+.v4-bonus-nav li span{display: inline-block; width: 3.2rem; border-bottom: 2px solid rgba(255,255,255,0); font-size: 0.64rem;}
+.v4-bonus-nav li.active span{border-bottom: 2px solid rgba(66,152,254,1); color: #4298FE;}
+.v4-bonus-main{padding: 0.64rem 0.64rem 0; display:none;}
+.v4-bonus-box{margin:0 0 0.427rem 0.64rem; height:4.267rem;  background-color: #fff; position:relative; padding-left: 4.261rem; box-sizing: border-box;}
+.v4-bonus-num{position:absolute; padding-top: 0.939rem; box-sizing: border-box; left: -0.64rem; right: 0; width:4.267rem; height:4.267rem; text-align: center; font-size: 0.512rem; color: #fff;}
+.v4-bonus-num big{font-size: 1.067rem;}
+
+.cash .v4-bonus-num{background: url(/static/weixin/images/wap4/bonus/bonus-bg1.png) left center no-repeat;background-size:100%;}
+.rate .v4-bonus-num{background: url(/static/weixin/images/wap4/bonus/bonus-bg2.png) left center no-repeat;background-size:100%;}
+.v4-bonus-info{background-color: #fff;  }
+.v4-bonus-info h3{font-size: 0.64rem; height:1.28rem; line-height: 0.64rem; padding-top: 0.747rem;}
+.v4-bonus-info p{color: #999; height:1.451rem; overflow: hidden; font-size: 0.469rem;}
+.v4-bonus-icon{position:absolute; right:0; top: 0; width: 1.28rem; height:1.28rem;}
+.cash .v4-bonus-icon{background: url(/static/weixin/images/wap4/bonus/bonus-icon1.png) left center no-repeat;background-size:100%;}
+.rate .v4-bonus-icon{background: url(/static/weixin/images/wap4/bonus/bonus-icon2.png) left center no-repeat;background-size:100%;}
+
+/*disable*/
+.disable .v4-bonus-num{background: url(/static/weixin/images/wap4/bonus/bonus-bg3.png) left center no-repeat;background-size:100%;}
+.cash.disable .v4-bonus-icon{background: url(/static/weixin/images/wap4/bonus/bonus-icon3.png) left center no-repeat;background-size:100%;}
+.rate.disable .v4-bonus-icon{background: url(/static/weixin/images/wap4/bonus/bonus-icon4.png) left center no-repeat;background-size:100%;}
+.disable.v4-bonus-box,.disable.v4-bonus-box .v4-bonus-info p{color:#bdbdbd;} 
+
+.v4-bonus-title{font-size: 0.512rem; color:#999; padding-bottom:0.32rem;}
+.v4-bonus-select{position:absolute; width: 0.725rem; height:0.725rem; right:0.725rem; top: 1.771rem;background: url(/static/weixin/images/wap4/bonus/bonus-icon6.png) left center no-repeat;background-size:100%;}
+.v4-bonus-select.selected{background-image: url(/static/weixin/images/wap4/bonus/bonus-icon5.png) }
+a.v4-bonus-btn,.v4-bonus-btn,a.v4-bonus-btn:visited{position:fixed; border:none; background-color: #fff; width: 100%; bottom:0; left: 0; height:2.133rem; line-height: 2.133rem; text-align: center; font-size: 0.725rem; color:#4298FE;}
+.v4-bonus-mb{margin-bottom: 3rem;}
