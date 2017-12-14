@@ -36,12 +36,6 @@ class IndexController extends PcController
 
         $tag    = (isset($_COOKIE['ad_already_pop']) && !empty($_COOKIE['ad_already_pop'])) ? $_COOKIE['ad_already_pop'] : '';
 
-        #$projectLogic   =   new ProjectLogic();
-
-        #$projectArr     =   $projectLogic->getNewIndexProjectPack();
-
-        #$homeStat       =   $projectLogic->formatHomeStat($projectArr['stat']);                //平台数据
-
         $ad = [
             'noviceLeft'    => AdLogic::getAdByPositionId(35),  //新手项目（左侧）
             'noviceRight'   => AdLogic::getAdByPositionId(36),  //新手项目（右侧）
@@ -49,10 +43,9 @@ class IndexController extends PcController
         ];
 
         $data   = [
-            'bannerList'      => AdLogic::getUseAbleListByPositionId(1),
-            'tag'             => $tag,
-            #'homeStat'         => $homeStat,
-            'ad'              => $ad
+            'bannerList'    => AdLogic::getUseAbleListByPositionId(1),
+            'tag'           => $tag,
+            'ad'            => $ad
         ];
         return view('pc.home.index', $data);
     }
@@ -83,20 +76,17 @@ class IndexController extends PcController
 
         $articlePacket  =   $articleLogic->getHomeList();
 
-        //$bannerList     =   AdLogic::getUseAbleListByPositionId(1);
-
         //首页注册按钮
         $indexButton    =   SystemConfigLogic::getConfig('INDEX_BUTTON');
 
         $dataPacket     =   [
             'current'       => $current,
             'articleList'   => $articlePacket,
-            //'bannerList'    => $bannerList,
-            'userData'      =>  $userStatics,
+            'userData'      => $userStatics,
             'indexButton'   => $indexButton,
-            'projectList'   =>  $projectArr,
-            'viewUser'      =>  $this->getUserId () ,
-            'homeStat'         => $homeStat,
+            'projectList'   => $projectArr,
+            'viewUser'      => $this->getUserId () ,
+            'homeStat'      => $homeStat,
 
         ] ;
 

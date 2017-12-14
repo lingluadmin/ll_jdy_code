@@ -176,9 +176,10 @@ class UserModel extends Model
     }
 
     /**
-     * @param $userId
-     * @return array
-     * @desc 核心接口 通过用户id获取用户账户中心接口
+     * @desc    核心接口 通过用户id获取用户账户中心接口
+     * @param   $userId
+     * @return  array
+     *
      */
     public static function getCoreApiUserInfoAccount( $userId ){
 

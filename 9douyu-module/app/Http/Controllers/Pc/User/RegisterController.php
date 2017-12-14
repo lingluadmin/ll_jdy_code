@@ -40,9 +40,9 @@ class RegisterController  extends PcController
         }
 
         //登录页面的广告
-        $data['ad'] = AdLogic::getUseAbleListByPositionId(15);
+        $data['ad']     = AdLogic::getUseAbleListByPositionId(15);
         $data['action'] = 'register';
-        $data['channel'] = $request->get ('channel','');
+        $data['channel']= $request->get ('channel','');
         return view('pc.user.login', $data);
     }
 

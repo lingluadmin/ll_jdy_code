@@ -60,19 +60,38 @@ class UserLogic extends Logic
 {
 
     /**
-     * @param $userId
-     * @return array
-     * @desc 用户中心首页数据
+     * @desc    根据用户ID获取用户信息
+     * @param   $userId
+     * @return  array
+     *
      */
     public function getUserInfoAccount($userId){
 
-        $model = new UserModel();
-
+        $model  = new UserModel();
         $return = $model -> getCoreApiUserInfoAccount( $userId );
-
         return $return;
 
     }
+
+    /**
+     * @desc    根据手机号获取用户信息
+     *
+     * @param $phone
+     * @return array
+     */
+    public static function getCoreUser($phone)
+    {
+        try{
+            $userInfo   = \App\Http\Models\Common\CoreApi\UserModel::getBaseUserInfo($phone);
+            return $userInfo;
+        }catch (\Exception $e){
+            \Log::info(__METHOD__, [$e->getMessage(), $e->getCode(), $e->getLine(), $e->getFile()]);
+        }
+
+        return [];
+    }
+
+
 
     /**
      * @param $userId
@@ -104,26 +123,7 @@ class UserLogic extends Logic
 
     }
 
-    /**
-     * 获取核心用户信息
-     *
-     * @param $phone
-     * @return array
-     */
-    public static function getCoreUser($phone)
-    {
-        try{
 
-            $userInfo  = \App\Http\Models\Common\CoreApi\UserModel::getBaseUserInfo($phone);
-
-            return $userInfo;
-
-        }catch (\Exception $e){
-            \Log::info(__METHOD__, [$e->getMessage(), $e->getCode(), $e->getLine(), $e->getFile()]);
-        }
-
-        return [];
-    }
 
     /**
      * @param $userId
